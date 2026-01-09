@@ -1,5 +1,6 @@
 import { useState } from 'react'
 import './App.css'
+import { useScrollTracking, useSectionTracking, trackClick } from './useAnalytics'
 
 function App() {
   const workExperiences = [
@@ -291,6 +292,9 @@ function App() {
   const [openExperienceId, setOpenExperienceId] = useState(null)
   const [openEducationId, setOpenEducationId] = useState(null)
 
+  useScrollTracking()
+  useSectionTracking(['profile', 'diensten', 'werkwijze', 'ervaring', 'security', 'contact'])
+
   const chipCategory = (label) => {
     const t = String(label || '').toLowerCase()
 
@@ -362,7 +366,7 @@ function App() {
             <a className="navLink" href="#contact">Contact</a>
           </nav>
 
-          <a className="btn btnPrimary" href="#contact">Book an intro call</a>
+          <a className="btn btnPrimary" href="#contact" data-umami-event="nav-cta-click">Book an intro call</a>
         </div>
       </header>
 
@@ -380,8 +384,8 @@ function App() {
               <p className="forWho">Best fit for small teams that need senior delivery capability without hiring a full team.</p>
 
               <div className="heroCtas">
-                <a className="btn btnPrimary" href="#contact">Book a short intro</a>
-                <a className="btn btnGhost" href="#diensten">View services</a>
+                <a className="btn btnPrimary" href="#contact" data-umami-event="hero-cta-primary">Book a short intro</a>
+                <a className="btn btnGhost" href="#diensten" data-umami-event="hero-cta-secondary">View services</a>
               </div>
             </div>
 
@@ -607,7 +611,11 @@ function App() {
                           className="experienceSummary"
                           type="button"
                           aria-expanded={isOpen}
-                          onClick={() => setOpenExperienceId((cur) => (cur === exp.id ? null : exp.id))}
+                          onClick={() => {
+                          const willOpen = openExperienceId !== exp.id
+                          if (willOpen) trackClick('experience-expand', { id: exp.id })
+                          setOpenExperienceId((cur) => (cur === exp.id ? null : exp.id))
+                        }}
                         >
                           <div className="experienceSummaryText">
                             <div className="experienceHeadline">{exp.role}</div>
@@ -693,7 +701,11 @@ function App() {
                           className="experienceSummary"
                           type="button"
                           aria-expanded={isOpen}
-                          onClick={() => setOpenEducationId((prev) => (prev === edu.id ? null : edu.id))}
+                          onClick={() => {
+                          const willOpen = openEducationId !== edu.id
+                          if (willOpen) trackClick('education-expand', { id: edu.id })
+                          setOpenEducationId((prev) => (prev === edu.id ? null : edu.id))
+                        }}
                         >
                           <div className="experienceSummaryText">
                             <div className="experienceHeadline">{edu.program}</div>
@@ -782,8 +794,8 @@ function App() {
                 </p>
               </div>
               <div className="ctaActions">
-                <a className="btn btnPrimary" href="mailto:info@goodgrid.nl?subject=Intro%20call%20goodgrid">Email for an intro</a>
-                <a className="btn btnGhost" href="#diensten">Read services first</a>
+                <a className="btn btnPrimary" href="mailto:info@goodgrid.nl?subject=Intro%20call%20goodgrid" data-umami-event="contact-email-click">Email for an intro</a>
+                <a className="btn btnGhost" href="#diensten" data-umami-event="contact-services-click">Read services first</a>
               </div>
             </div>
           </div>

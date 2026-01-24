@@ -1,0 +1,22 @@
+{
+  "title": "Profile",
+  "subtitle": "Result-oriented designer and IT architect. I turn goals into designs and designs into implemented solutions.",
+  "cards": [
+    {
+      "title": "What you get",
+      "text": "I learn new domains quickly, empathize with stakeholders and make sense of complexity. I think in structures - and I can spot structure in chaos. I'm strong with words and can communicate ideas clearly through explanation and documentation."
+    },
+    {
+      "title": "How I manage my own pitfalls",
+      "text": "I'm not great at sitting on my hands. I'm impatient with slow or dysfunctional processes and can be tempted to jump in and do the work myself. To avoid losing the bigger picture, I work with clear priorities, small increments and explicit handover moments."
+    },
+    {
+      "title": "Working style",
+      "text": "I'm not a perfectionist and don't expect perfection from teams - I do expect commitment and accuracy. I prefer moving in small steps through concepts, prototypes, MVPs and phased delivery. I don't believe in designing everything up front; I believe in learning while building."
+    },
+    {
+      "title": "Roles I thrive in",
+      "text": "Integration / information / systems architect, business analyst and product owner. I also enjoy hands-on engineering, especially backend and integration development (Node.js)."
+    }
+  ]
+}

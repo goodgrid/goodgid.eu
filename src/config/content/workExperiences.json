@@ -1,0 +1,206 @@
+[
+  {
+    "id": "creatio-crm-po",
+    "role": "CRM and marketing automation for a citizen cooperative in transition.",
+    "org": "Product ownership and delivery",
+    "period": "2025–present",
+    "description": [
+      "Product ownership for the implementation of Creatio Marketing/CRM for a citizen cooperative working on the food and biodiversity transition.",
+      "I do this engagement pro bono (zero rate) to contribute to solving societal challenges.",
+      "I translate goals into a practical backlog, align stakeholders, and help deliver a system that volunteers and small teams can actually run and evolve."
+    ],
+    "outcomes": [
+      "Clear scope, priorities and roadmap for marketing/CRM enablement",
+      "Incremental implementation with working software and documented processes",
+      "A maintainable setup that supports volunteer-driven operations and handover"
+    ],
+    "tech": ["Creatio", "CRM", "Marketing automation", "Low-code", "Process design", "Data & integrations", "Documentation"],
+    "context": { "domain": "Civic/impact", "team": "Citizen cooperative (lean team + volunteers)", "waysOfWorking": "Agile, step-by-step delivery with frequent feedback" }
+  },
+  {
+    "id": "pwf-devsecops-2025",
+    "role": "Security-critical trust services in a regulated notarial environment",
+    "org": "DevSecOps engineering and operational delivery.",
+    "period": "2025–present",
+    "description": [
+      "In a three-person delivery team we replaced existing contracts with multinational vendors by taking ownership of both software and platform delivery.",
+      "We redesigned, simplified and re-implemented the software, migrated the infrastructure to the desired Kubernetes provider, and then ran and optimized the service for six months in production.",
+      "The result: materially reduced operational complexity and significantly lower costs - without sacrificing reliability or security."
+    ],
+    "outcomes": [
+      "Replaced multinational vendor contracts with an internal three-person delivery team",
+      "Redesigned and re-implemented the service to reduce complexity and improve maintainability",
+      "Migrated infrastructure to the target Kubernetes provider and stabilized production operations",
+      "Operated and optimized the service for 6 months post-migration, reducing cost and complexity"
+    ],
+    "tech": ["Kubernetes", "Cloud/Kubernetes provider migration", "CI/CD", "Observability", "DevSecOps", "Security", "Node.js"],
+    "context": { "domain": "Regulated IT", "team": "3-person delivery team", "waysOfWorking": "Agile, incremental delivery with production ownership" }
+  },
+  {
+    "id": "data-migration-2021",
+    "role": "Large-scale data migration and integration in an international retail landscape.",
+    "org": "Hands-on delivery and technical coordination.",
+    "period": "2021–present",
+    "description": [
+      "A three-part engagement: (1) assessment and migration planning, (2) implementation of the approach and tooling, and (3) executing the migrations at scale.",
+      "The program migrated ~5 million employee documents from multiple sources into a new HR DMS for an international retail organization. I assessed the involved countries and their document landscapes and designed a pragmatic, verifiable approach.",
+      "After approval I implemented the approach as a Node.js migration pipeline, integrating DocShifter to convert documents to PDF. Using the delivered tooling and runbooks, I executed the migrations for 10 European countries."
+    ],
+    "outcomes": [
+      "Assessment and approach designed across 10 European countries (international retail)",
+      "Implemented a Node.js migration pipeline with DocShifter PDF conversion integration",
+      "Delivered runbooks and repeatable tooling to execute migrations predictably and safely",
+      "Executed migrations for ~5 million employee documents into the new HR DMS"
+    ],
+    "tech": ["Node.js", "DocShifter", "Migration pipeline", "ETL", "Validation & reconciliation", "Runbooks", "HR DMS"],
+    "context": { "domain": "HR document management (international retail)", "team": "Lean team with high accountability", "waysOfWorking": "Iterative, checkpoint-driven delivery" }
+  },
+  {
+    "id": "qts-po-2019",
+    "role": "Qualified electronic signature services under eIDAS regulation.",
+    "org": "End-to-end product ownership and delivery.",
+    "period": "2019–2023",
+    "description": [
+      "We rebuilt a qualified certificate issuance service from the ground up because the solution that had evolved over the previous years was not certifiable against the ETSI standards under eIDAS. We deliberately threw it away and implemented a fit-for-purpose service designed to pass audit and operate reliably in production.",
+      "My formal role was Product Owner, but the work was hybrid: I wrote software, produced the technical documentation set, and translated regulatory requirements into implementable designs and user stories.",
+      "I designed, documented and executed the key ceremony, and then ran the service in production for ~6 months to stabilize and optimize operations before handover."
+    ],
+    "outcomes": [
+      "Rebuilt a qualified certificate issuance service to be certifiable under eIDAS/ETSI (fit-for-purpose, audit-ready)",
+      "Key ceremony designed, documented and executed; operational procedures and documentation brought to production standard",
+      "Production ownership for ~6 months: operated and optimized the service, then handed it back to the organization",
+      "Achieved certification outcomes in a relatively short timeframe: ISO 27001 and relevant ETSI standards under eIDAS",
+      "Organization recognized as one of a small number of Dutch providers at the highest European qualification level for certificate issuance"
+    ],
+    "tech": ["PKI", "Qualified certificates", "eIDAS", "ETSI", "Certificate issuance", "Key ceremony", "ISO 27001", "Kubernetes", "VMware", "Technical writing"],
+    "context": { "domain": "Qualified trust services (notariat)", "team": "Lean team with partners + vendors", "waysOfWorking": "Agile, step-by-step delivery under regulatory constraints with auditability" }
+  },
+  {
+    "id": "ciam-po-2023",
+    "role": "Enterprise IAM platform within a global professional services firm.",
+    "org": "Product ownership at scale.",
+    "period": "2023–2025",
+    "description": [
+      "I took over ownership of an Okta CIAM implementation that had not been actively maintained for ~8 years and had been implemented as a \"byproduct\" - while still managing ~100,000 customer accounts.",
+      "I assembled a three-person team and brought the service back under control: cleanup, documentation, operational hygiene and clear ownership.",
+      "We \"emancipated\" the CIAM capability into a first-class platform and made it fit for use across all public apps of a global top-10 accountancy firm, then transferred it back to the organization for ongoing operations and development."
+    ],
+    "outcomes": [
+      "Stabilized and modernized a neglected CIAM implementation while continuing to support ~100,000 managed accounts",
+      "Established clear ownership, documentation and operational readiness for the platform",
+      "Created a reusable CIAM platform suitable for all public-facing applications within a global top-10 accountancy firm",
+      "Handover completed: cleaned up, documented and transferred back to the organization for long-term operation and evolution"
+    ],
+    "tech": ["Okta", "CIAM", "SSO", "OAuth/OIDC", "APIs", "IAM", "Security", "Technical writing"],
+    "context": { "domain": "Customer identity & access", "team": "3-person team + multiple stakeholders", "waysOfWorking": "Agile, step-by-step delivery with room for learning" }
+  },
+  {
+    "id": "shipping-architect-2023",
+    "role": "Enterprise IT architecture in a globally operating gas tanker shipping company",
+    "org": "Enterprise architect (pragmatic, project-embedded)",
+    "period": "2023–2024",
+    "description": [
+      "Introduced architecture as a steering instrument in IT projects for a globally operating gas tanker shipping company (≈300 shore staff, ≈1,000 at sea). The IT department was compact and highly dependent on external capacity.",
+      "The approach was pragmatic and incremental: I embedded as a project architect in ongoing initiatives to surface bottlenecks, dependencies and recurring non-functional requirements. I translated these learnings into practical architecture principles and guidelines without heavy governance overhead.",
+      "A key issue was that infrastructure and application knowledge was implicit and concentrated in a small group. With high turnover and short-term external engagement, this reduced predictability in projects and planning.",
+      "To address this, I established a central architecture description/repository to capture and make knowledge accessible for teams and new joiners. The engagement ended before architecture could be structurally embedded due to broader organizational constraints, but the delivered principles and documentation form a concrete base to build on."
+    ],
+    "outcomes": [
+      "Architecture principles defined and adopted by management",
+      "Pragmatic guidelines produced to steer future projects without heavy governance",
+      "Central architecture repository created to make implicit system knowledge explicit and reusable",
+      "Improved visibility of dependencies, constraints and recurring non-functional requirements across projects"
+    ],
+    "tech": ["Architecture principles", "Non-functional requirements", "System documentation", "Repository/knowledge base", "Stakeholder alignment"],
+    "context": { "domain": "Maritime / shipping", "team": "Compact IT with external vendors/contractors", "waysOfWorking": "Pragmatic, incremental introduction of architecture" }
+  },
+  {
+    "id": "cloudguide-2021",
+    "role": "IAM and CIAM delivery for multiple end clients via a reseller model",
+    "org": "IAM/CIAM consultant & implementer",
+    "period": "2021–present",
+    "description": [
+      "Consultancy and implementation work for an Okta reseller, delivering Okta IAM/CIAM solutions for end clients.",
+      "Typical work includes integration design (SSO, OAuth/OIDC), tenant configuration, automation, and making the setup operable with clear governance and onboarding.",
+      "The focus is not just \"go-live\", but a handover-ready implementation with documentation and a delivery approach that client teams can sustain."
+    ],
+    "outcomes": [
+      "Okta IAM/CIAM implementations delivered for multiple end clients via a reseller",
+      "Working integrations (SSO / OAuth/OIDC) with repeatable configuration patterns",
+      "Clear governance, onboarding and operational handover for client teams"
+    ],
+    "tech": ["Okta", "IAM", "CIAM", "SSO", "OAuth/OIDC", "Automation", "Documentation"],
+    "context": { "domain": "Identity & access management", "team": "Reseller + client delivery teams", "waysOfWorking": "Incremental rollout with clear handover" }
+  },
+  {
+    "id": "info-arch-2019",
+    "role": "Information architecture in the Dutch public sector under Common Ground principles",
+    "org": "Information architect",
+    "period": "2019–2020",
+    "description": [
+      "Information architect for VNG Realisatie, Gemeente Delft and BIJ12, focused on the Dutch Common Ground principles: making data and application landscapes modern, modular and adaptable.",
+      "A key part of the work was getting design values and architecture principles adopted across stakeholders - translating abstract \"Common Ground\" ideas into practical choices teams could apply in projects."
+    ],
+    "outcomes": [
+      "Shared design values and architecture principles adopted by stakeholders (Common Ground aligned)",
+      "Pragmatic guidance to modernize and modularize the data/application landscape",
+      "Documentation and decision support that teams could reuse across initiatives"
+    ],
+    "tech": ["Common Ground", "Architecture principles", "Information architecture", "Data landscape", "Governance", "Documentation"],
+    "context": { "domain": "Public sector (Common Ground)", "team": "Business + IT stakeholders", "waysOfWorking": "Iterative discovery and alignment" }
+  },
+  {
+    "id": "contezza-owner-2008",
+    "role": "Founding and growing a boutique consultancy into an implementation-focused software company",
+    "org": "Founder & delivery lead",
+    "period": "2008–2019",
+    "description": [
+      "I founded Contezza as a small boutique consultancy and grew it into an implementation and software development company of ~15 people.",
+      "Over time I deliberately chose content and personal agility over management: I handed day-to-day management over to my two business partners so I could stay close to delivery and keep my own flexibility."
+    ],
+    "outcomes": [
+      "Grew a boutique consultancy into a ~15-person implementation and software development firm",
+      "Delivered end-to-end implementations across multiple client contexts",
+      "Leadership handover: management transferred to partners to stay delivery-focused and agile"
+    ],
+    "tech": ["Consulting", "Delivery", "Implementation", "Software development", "Stakeholder management"],
+    "context": { "domain": "Multiple", "team": "Founder-led team growing to ~15", "waysOfWorking": "Pragmatic, step-by-step delivery" }
+  },
+  {
+    "id": "afm-info-2004",
+    "role": "Information management in a regulated financial supervision environment",
+    "org": "Information specialist",
+    "period": "2004–2008",
+    "description": [
+      "I worked at the AFM during the period when new supervisory responsibilities were assigned by the Dutch government. I helped implement these new tasks from an information management perspective: making intake, processing and retrieval of evidence predictable and auditable.",
+      "I implemented OpenText Livelink to support the new workflows, and helped digitize and classify incoming physical documents using Kofax.",
+      "For a period I was also responsible for the data warehouse built on Business Objects, supporting reporting and management information needs."
+    ],
+    "outcomes": [
+      "Implemented information management capabilities to support new supervisory responsibilities (audit-ready workflows)",
+      "OpenText Livelink implementation and adoption for case- and document-centric work",
+      "Digitization and classification flow implemented for incoming physical documents (Kofax)",
+      "Data warehouse responsibility (Business Objects) to support reporting and management information"
+    ],
+    "tech": ["OpenText Livelink", "Kofax", "Business Objects", "Information management", "Governance", "Compliance"],
+    "context": { "domain": "Financial supervision & regulation", "team": "Business + IT", "waysOfWorking": "Pragmatic implementation and adoption" }
+  },
+  {
+    "id": "siennax-impl-1999",
+    "role": "Enterprise software implementations in a startup and scale-up context",
+    "org": "Implementation consultant & project lead",
+    "period": "1999–2004",
+    "description": [
+      "I joined startup Siennax as an implementation consultant and grew into a project manager / project lead role.",
+      "I was the \"oil in the machine\": connecting sales, delivery and operations, filling gaps, removing blockers, and making implementations succeed end-to-end.",
+      "Over time I deliberately chose content over a further management track, which led to my next step: moving to the AFM as an information manager in a regulated environment."
+    ],
+    "outcomes": [
+      "Grew from implementation consultant to project manager in a startup environment",
+      "Delivered end-to-end implementations with clear handover and pragmatic stakeholder alignment",
+      "Built a reputation for making complex delivery predictable by bridging functions and closing gaps"
+    ],
+    "tech": ["Implementation", "Project management", "Stakeholder management", "Delivery"],
+    "context": { "domain": "Enterprise implementations", "team": "Startup project teams", "waysOfWorking": "Hands-on, structured delivery" }
+  }
+]

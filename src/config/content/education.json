@@ -1,0 +1,74 @@
+[
+  {
+    "id": "mis-change-2018",
+    "program": "Managing Information and Sustainable Change",
+    "institution": "Postgraduate program",
+    "period": "2018–2020",
+    "description": [
+      "This program equipped participants with frameworks and tools for operating in the modern VUCA world, where rapid change and systemic complexity challenge traditional approaches.",
+      "The curriculum focused on how to make sense of complexity, navigate uncertainty, and apply strategic thinking and adaptive approaches to real-world organisational and information challenges."
+    ],
+    "skills": ["Information management", "Organizational change", "Operating models", "Stakeholder alignment", "Transformation"]
+  },
+  {
+    "id": "scs-1995",
+    "program": "School for Communication Systems",
+    "institution": "Faculty of Communication and Journalism",
+    "period": "1995–2000",
+    "description": [
+      "This program emerged in the mid-1990s as a response to the one-sided, technology-centric approach of traditional computer science programs.",
+      "Positioned within the faculty of Communication and Journalism, it emphasized information systems as socio-technical constructs: technology embedded in organizations, processes, and human communication.",
+      "In hindsight, it closely aligns with what later became Business Information Systems."
+    ],
+    "skills": ["Business information systems", "Socio-technical systems", "Process thinking", "Organizational context", "Communication & IT"]
+  },
+  {
+    "id": "cert-architecture",
+    "program": "Architecture & design",
+    "institution": "Certifications",
+    "period": "",
+    "description": [
+      "TOGAF® 9 Certified - Certification focused on enterprise architecture as a decision-making and steering discipline. Emphasizes translating strategy into executable structures, governance, and change - rather than producing theoretical models.",
+      "ArchiMate® 3 Practitioner - Advanced modeling of enterprise architecture across business, application, and technology layers. Used to make dependencies, trade-offs, and impact of change explicit and communicable.",
+      "Platform Design Toolkit (PDT) - Certified Professional - Framework for designing platforms and ecosystems as socio-technical systems. Focuses on roles, interactions, incentives, and governance - beyond purely technical architecture."
+    ],
+    "skills": ["TOGAF® 9 Certified", "ArchiMate® 3 Practitioner", "Platform Design Toolkit (PDT) - Certified Professional"]
+  },
+  {
+    "id": "cert-product-agile",
+    "program": "Product & agile delivery",
+    "institution": "Certifications",
+    "period": "",
+    "description": [
+      "Professional Scrum Product Owner I (PSPO I) - Formal grounding in product ownership: value-driven backlog management, stakeholder alignment, and decision-making under uncertainty.",
+      "Professional Scrum Master I (PSM I) - Understanding of Scrum as a lightweight framework for learning and delivery, with emphasis on collaboration, transparency, and continuous improvement - not dogma."
+    ],
+    "skills": ["Professional Scrum Product Owner I (PSPO I)", "Professional Scrum Master I (PSM I)"]
+  },
+  {
+    "id": "cert-identity-okta",
+    "program": "Identity, security & SaaS platforms",
+    "institution": "Certifications",
+    "period": "",
+    "description": [
+      "Okta Certified Professional - Foundational knowledge of Okta identity services, core concepts, and platform capabilities in real-world IAM and CIAM scenarios.",
+      "Okta Certified Consultant - Design and implementation of Okta solutions in client environments, including integration patterns, governance, and handover to operational teams.",
+      "Okta Certified Administrator - Operational management of Okta tenants: configuration, lifecycle management, access control, and day-to-day administration.",
+      "Okta Certified Developer - Custom integrations and extensions using Okta APIs and standards such as OAuth 2.0 and OpenID Connect."
+    ],
+    "skills": ["Okta Certified Professional", "Okta Certified Consultant", "Okta Certified Administrator", "Okta Certified Developer"]
+  },
+  {
+    "id": "cert-box",
+    "program": "Content & collaboration platforms",
+    "institution": "Certifications",
+    "period": "",
+    "description": [
+      "Box Certified Professional (2019) - Design and implementation of secure content collaboration solutions, with attention to governance, compliance, and integration into enterprise workflows.",
+      "Documentum - Certified in enterprise content management, document lifecycle, and records management.",
+      "OpenText Content Server - Certified in content services platform implementation and administration.",
+      "Alfresco - Certified in open-source content management and collaboration platform."
+    ],
+    "skills": ["Box Certified Professional", "Documentum", "OpenText Content Server", "Alfresco"]
+  }
+]

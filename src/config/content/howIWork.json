@@ -1,0 +1,26 @@
+{
+  "title": "How I work",
+  "subtitle": "Agile and framework-agnostic: we deliver step by step, leaving room for learning and changing insights. I work independently, with access to a small, trusted network of senior freelancers when additional capacity or expertise is required.",
+  "steps": [
+    {
+      "number": 1,
+      "title": "Discover",
+      "text": "Understand the real problem: stakeholders, constraints, risks and the current system. Map what matters and what doesn't."
+    },
+    {
+      "number": 2,
+      "title": "Define",
+      "text": "Turn insight into direction: a clear problem statement, success metrics, scope boundaries, and a delivery plan."
+    },
+    {
+      "number": 3,
+      "title": "Develop",
+      "text": "Explore solution options and validate fast. Prototype where useful, then implement in small, working increments."
+    },
+    {
+      "number": 4,
+      "title": "Deliver",
+      "text": "Production-grade outcomes: ship, operate, document, and transfer. You end up with a system your team can run and evolve."
+    }
+  ]
+}

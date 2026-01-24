@@ -65,6 +65,13 @@
   color: var(--gg-ink);
 }
 
+.navLinkBtn {
+  border: none;
+  background: none;
+  cursor: pointer;
+  font-family: inherit;
+}
+
 .btn {
   display: inline-flex;
   align-items: center;
@@ -73,6 +80,7 @@
   border: 1px solid transparent;
   border-radius: 14px;
   padding: 10px 14px;
+  font-size: 0.95rem;
   font-weight: 650;
   line-height: 1;
   cursor: pointer;
@@ -384,6 +392,11 @@
 
 .experiencePanel {
   padding: 0 12px 12px;
+  display: none;
+}
+
+.experienceItem.isOpen .experiencePanel {
+  display: block;
 }
 
 .experiencePanelGrid {
@@ -627,6 +640,46 @@
   flex-wrap: wrap;
 }
 
+.ctaRow {
+  display: flex;
+  align-items: center;
+  gap: 24px;
+}
+
+.ctaRow .cta {
+  flex: 0 0 75%;
+}
+
+.collectiveBadge {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 10px;
+  text-align: center;
+}
+
+.collectiveLabel {
+  font-size: 0.85rem;
+  color: var(--gg-muted);
+  text-transform: uppercase;
+  letter-spacing: 0.02em;
+}
+
+.collectiveLogoLink {
+  display: block;
+  transition: opacity 0.2s;
+}
+
+.collectiveLogoLink:hover {
+  opacity: 0.7;
+}
+
+.collectiveLogo {
+  width: 140px;
+  height: 140px;
+  object-fit: contain;
+}
+
 .footer {
   padding: 24px 0 42px;
   border-top: 1px solid var(--gg-border);
@@ -723,5 +776,15 @@
   .heroCtas .btn,
   .ctaActions .btn {
     width: 100%;
+  }
+}
+
+@media print {
+  .experiencePanel {
+    display: block !important;
+  }
+
+  .experienceChevron {
+    display: none;
   }
 }

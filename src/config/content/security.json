@@ -1,0 +1,18 @@
+{
+  "title": "Security, privacy & compliance",
+  "subtitle": "Experience in environments where audits and evidence matter, including contributions to complex infosec certifications.",
+  "cards": [
+    {
+      "title": "Evidence",
+      "text": "Controls, logging, change management and documentation auditors can follow."
+    },
+    {
+      "title": "Secure by design",
+      "text": "Threat modeling, least privilege, secrets management and hardening."
+    },
+    {
+      "title": "Practical implementation",
+      "text": "No paper tigers: what we agree on gets built and embedded."
+    }
+  ]
+}

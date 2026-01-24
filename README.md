@@ -40,5 +40,8 @@ The site uses [Umami](https://umami.is/) for privacy-friendly analytics with:
 - **Scroll depth tracking** — 25%, 50%, 75%, 100%
 - **Section visibility** — which sections visitors view
 - **Click events** — CTA buttons, navigation, accordion interactions
+- **`show-cv`** — when visitor opens the CV page
+- **`print`** — when visitor prints any page (via browser print dialog)
+- **`nexustrust-click`** — when visitor clicks the Nexus Trust logo
 
 Custom tracking is implemented in `src/useAnalytics.js`.

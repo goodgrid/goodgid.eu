@@ -1,0 +1,234 @@
+.cvPage {
+  min-height: 100vh;
+  background: #f5f5f5;
+  padding: 20px;
+}
+
+.cvActions {
+  max-width: 210mm;
+  margin: 0 auto 20px;
+  display: flex;
+  justify-content: space-between;
+  gap: 12px;
+}
+
+.cvDocument {
+  max-width: 210mm;
+  margin: 0 auto;
+  background: white;
+  padding: 40px 50px;
+  box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+  font-size: 11pt;
+  line-height: 1.5;
+  color: #1a1a1a;
+}
+
+.cvHeader {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+  padding-bottom: 24px;
+  border-bottom: 2px solid #1a1a1a;
+  margin-bottom: 24px;
+}
+
+.cvName {
+  font-size: 28pt;
+  font-weight: 700;
+  margin: 0 0 4px;
+  letter-spacing: -0.02em;
+}
+
+.cvTitle {
+  font-size: 14pt;
+  font-weight: 600;
+  margin: 0 0 8px;
+  color: #333;
+}
+
+.cvTagline {
+  font-size: 10pt;
+  color: #666;
+  margin: 0;
+  max-width: 400px;
+}
+
+.cvContact {
+  text-align: right;
+  font-size: 10pt;
+}
+
+.cvContactItem {
+  margin-bottom: 4px;
+}
+
+.cvSection {
+  margin-bottom: 24px;
+}
+
+.cvSectionTitle {
+  font-size: 13pt;
+  font-weight: 700;
+  text-transform: uppercase;
+  letter-spacing: 0.05em;
+  border-bottom: 1px solid #ccc;
+  padding-bottom: 6px;
+  margin: 0 0 14px;
+}
+
+.cvText {
+  margin: 0 0 8px;
+  font-size: 10pt;
+}
+
+.cvExperience {
+  margin-bottom: 18px;
+  page-break-inside: avoid;
+}
+
+.cvExpHeader {
+  display: flex;
+  justify-content: space-between;
+  align-items: baseline;
+}
+
+.cvExpRole {
+  font-weight: 600;
+  font-size: 11pt;
+}
+
+.cvExpPeriod {
+  font-size: 10pt;
+  color: #666;
+}
+
+.cvExpOrg {
+  font-size: 10pt;
+  color: #444;
+  margin-bottom: 6px;
+}
+
+.cvExpDescription {
+  font-size: 10pt;
+  margin-bottom: 6px;
+}
+
+.cvExpDescription p {
+  margin: 0 0 4px;
+}
+
+.cvExpOutcomes {
+  font-size: 9pt;
+  margin-bottom: 4px;
+}
+
+.cvExpOutcomes ul {
+  margin: 4px 0 0;
+  padding-left: 18px;
+}
+
+.cvExpOutcomes li {
+  margin-bottom: 2px;
+}
+
+.cvExpTech {
+  font-size: 9pt;
+  color: #666;
+}
+
+.cvEducation {
+  margin-bottom: 14px;
+  page-break-inside: avoid;
+}
+
+.cvEduHeader {
+  display: flex;
+  justify-content: space-between;
+  align-items: baseline;
+}
+
+.cvEduProgram {
+  font-weight: 600;
+  font-size: 11pt;
+}
+
+.cvEduPeriod {
+  font-size: 10pt;
+  color: #666;
+}
+
+.cvEduInstitution {
+  font-size: 10pt;
+  color: #444;
+  margin-bottom: 4px;
+}
+
+.cvEduDescription {
+  font-size: 9pt;
+}
+
+.cvEduDescription p {
+  margin: 0 0 4px;
+}
+
+.cvCompetencies {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 16px;
+}
+
+.cvCompetencyGroup h3 {
+  font-size: 10pt;
+  font-weight: 600;
+  margin: 0 0 4px;
+}
+
+.cvCompetencyGroup p {
+  font-size: 9pt;
+  margin: 0;
+  color: #444;
+}
+
+.cvFooter {
+  margin-top: 30px;
+  padding-top: 16px;
+  border-top: 1px solid #ccc;
+  text-align: center;
+}
+
+.cvFooterText {
+  font-size: 9pt;
+  color: #666;
+}
+
+/* Print styles */
+@media print {
+  .noPrint {
+    display: none !important;
+  }
+
+  .cvPage {
+    background: white;
+    padding: 0;
+  }
+
+  .cvDocument {
+    box-shadow: none;
+    padding: 0;
+    max-width: none;
+  }
+
+  @page {
+    size: A4;
+    margin: 15mm 20mm;
+  }
+
+  .cvExperience,
+  .cvEducation {
+    page-break-inside: avoid;
+  }
+
+  .cvSection {
+    page-break-inside: avoid;
+  }
+}

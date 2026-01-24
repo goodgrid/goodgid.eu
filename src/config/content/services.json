@@ -1,0 +1,47 @@
+{
+  "title": "Services",
+  "subtitle": "One person, multiple roles. Ideal when you're too small for a large team, but still want mature IT delivery.",
+  "offerings": [
+    {
+      "badge": "Strategy → plan → delivery",
+      "badgeColor": "cyan",
+      "title": "From direction to shipped outcomes",
+      "text": "I translate goals into an executable plan: scope, roadmap, risks, dependencies, and a delivery cadence that actually works."
+    },
+    {
+      "badge": "Architecture & product",
+      "badgeColor": "pink",
+      "title": "Design what works, build what's needed",
+      "text": "Practical architecture and product ownership: clear boundaries, integrations, data modeling and choices that remain maintainable."
+    },
+    {
+      "badge": "DevOps & operations",
+      "badgeColor": "amber",
+      "title": "Reliable in production",
+      "text": "CI/CD, Kubernetes, GitOps, monitoring and incident processes. I implement it and hand it over to your (new) team when the time is right."
+    }
+  ],
+  "engagements": [
+    {
+      "title": "Build an operating model",
+      "text": "Processes, tooling and a line organization that's transferable."
+    },
+    {
+      "title": "Product & platform",
+      "text": "From roadmap to implementation and operations."
+    },
+    {
+      "title": "Accelerate DevOps",
+      "text": "Kubernetes, GitOps, CI/CD and observability."
+    },
+    {
+      "title": "Compliance-ready delivery",
+      "text": "Security, privacy, audits and certifications."
+    }
+  ],
+  "photoCaption": {
+    "title": "Practical & outcome-driven",
+    "subtitle": "Less talk, more delivery. I ship, document, and hand over.",
+    "overlay": "Last time I worked in an office (2011) 😂"
+  }
+}

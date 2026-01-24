@@ -1,0 +1,16 @@
+{
+  "siteName": "goodgrid",
+  "domain": "goodgrid.nl",
+  "email": "info@goodgrid.nl",
+  "location": "Utrecht, NL",
+  "owner": {
+    "name": "Koen Bonnet",
+    "title": "Freelance IT Architect & Product Owner",
+    "tagline": "Strategy to execution - I turn goals into designs and designs into implemented solutions."
+  },
+  "collective": {
+    "name": "Nexus Trust",
+    "url": "https://nexustrust.eu",
+    "logo": "https://nexustrust.eu/logo.png"
+  }
+}

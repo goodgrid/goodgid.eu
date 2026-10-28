@@ -3,6 +3,7 @@ import './CV.css'
 import { trackClick } from './useAnalytics'
 import site from './config/site.json'
 import profileContent from './config/content/profile.json'
+import languages from './config/content/languages.json'
 
 function CV({ workExperiences, educationItems, onBack }) {
   useEffect(() => {
@@ -49,19 +50,17 @@ function CV({ workExperiences, educationItems, onBack }) {
           {workExperiences.map((exp) => (
             <div className="cvExperience" key={exp.id}>
               <div className="cvExpHeader">
-                <div className="cvExpRole">{exp.role}</div>
+                <div className="cvExpRole">{exp.title}</div>
                 <div className="cvExpPeriod">{exp.period}</div>
               </div>
-              <div className="cvExpOrg">{exp.org}</div>
-              <div className="cvExpDescription">
-                {exp.description.map((p, idx) => (
-                  <p key={idx}>{p}</p>
-                ))}
-              </div>
+              <div className="cvExpOrg">{exp.company} · {exp.role}</div>
+              <p className="cvExpDescription">
+                {(exp.detailedDescription || exp.description).join(' ')}
+              </p>
               <div className="cvExpOutcomes">
                 <strong>Key outcomes:</strong>
                 <ul>
-                  {exp.outcomes.map((o, idx) => (
+                  {(exp.detailedOutcomes || exp.outcomes).map((o, idx) => (
                     <li key={idx}>{o}</li>
                   ))}
                 </ul>
@@ -106,6 +105,21 @@ function CV({ workExperiences, educationItems, onBack }) {
               <h3>Technology</h3>
               <p>Node.js, Kubernetes, DevSecOps, CI/CD, Okta/IAM, API design, cloud infrastructure</p>
             </div>
+            <div className="cvCompetencyGroup">
+              <h3>Security</h3>
+              <p>CISSP, security governance, risk management, security architecture, secure SDLC, audit & compliance</p>
+            </div>
+          </div>
+        </section>
+
+        <section className="cvSection">
+          <h2 className="cvSectionTitle">Languages</h2>
+          <div className="cvLanguages">
+            {languages.map((lang) => (
+              <div className="cvLanguage" key={lang.language}>
+                <strong>{lang.language}:</strong> {lang.level}
+              </div>
+            ))}
           </div>
         </section>
 

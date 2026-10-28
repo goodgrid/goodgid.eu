@@ -46,6 +46,17 @@
     "skills": ["Professional Scrum Product Owner I (PSPO I)", "Professional Scrum Master I (PSM I)"]
   },
   {
+    "id": "cert-infosec",
+    "program": "Information security",
+    "institution": "Certifications",
+    "period": "since October 2026",
+    "description": [
+      "Certified Information Systems Security Professional (CISSP) - ISC2's vendor-neutral certification across the eight CBK domains: security and risk management, asset security, security architecture and engineering, communication and network security, identity and access management, security assessment and testing, security operations, and software development security.",
+      "Formal grounding in building and running security programs that stand up to audit: control design, risk-based decision making, and the governance structures that make security a property of the organization rather than a department."
+    ],
+    "skills": ["CISSP", "Security governance", "Risk management", "Security architecture", "IAM", "Secure software development", "Audit & compliance"]
+  },
+  {
     "id": "cert-identity-okta",
     "program": "Identity, security & SaaS platforms",
     "institution": "Certifications",

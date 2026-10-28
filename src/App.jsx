@@ -278,7 +278,7 @@ function App() {
                           <div className="experienceSummaryText">
                             <div className="experienceHeadline">{exp.role}</div>
                             <div className="experienceSubline">
-                              <div className="experienceOrg">{exp.org}</div>
+                              <div className="experienceOrg">{exp.title}</div>
                               <div className="experienceMeta">{exp.period}</div>
                             </div>
                           </div>

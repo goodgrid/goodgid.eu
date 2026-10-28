@@ -1,31 +1,55 @@
 [
   {
     "id": "creatio-crm-po",
-    "role": "CRM and marketing automation for a citizen cooperative in transition.",
-    "org": "Product ownership and delivery",
+    "title": "CRM and marketing automation for a citizen cooperative in transition.",
+    "role": "Product ownership and delivery",
+    "company": "Land van Ons",
     "period": "2025–present",
     "description": [
       "Product ownership for the implementation of Creatio Marketing/CRM for a citizen cooperative working on the food and biodiversity transition.",
       "I do this engagement pro bono (zero rate) to contribute to solving societal challenges.",
       "I translate goals into a practical backlog, align stakeholders, and help deliver a system that volunteers and small teams can actually run and evolve."
     ],
+    "detailedDescription": [
+      "Land van Ons is a unique cooperative where citizens work together to purchase farmland, manage it sustainably, and restore biodiversity of soil, plants, and animals while keeping it agricultural land.",
+      "As Product Owner for the Creatio CRM implementation, I am responsible for the digital transformation of volunteer and member management systems. This includes designing and implementing a comprehensive CRM solution that supports marketing automation, volunteer coordination, member engagement, and integration with the broader application landscape."
+    ],
     "outcomes": [
       "Clear scope, priorities and roadmap for marketing/CRM enablement",
       "Incremental implementation with working software and documented processes",
       "A maintainable setup that supports volunteer-driven operations and handover"
+    ],
+    "detailedOutcomes": [
+      "Product Owner for Creatio CRM implementation serving 350+ volunteers and thousands of members",
+      "Architecture design for integration landscape including Identity Provider (Keycloak), Creatio CRM, eBoekhouden (accounting), Mollie (payments), and MijnGrond (member portal)",
+      "Product vision development for 'Ons kent Ons' social intranet platform",
+      "Evaluation and selection of collaboration platforms (SharePoint, Evoqia Portal, HumHub)",
+      "Stakeholder management across volunteer teams, board members, and external partners",
+      "Technical architecture documentation in Notion for knowledge sharing",
+      "Designed comprehensive integration architecture connecting multiple systems (IdP, CRM, accounting, payments)",
+      "Developed product visions for multiple domains including 'Ontmoeten' (community/collaboration) and contact management",
+      "Led vendor evaluation and partner selection process for Creatio implementation",
+      "Established structured product ownership practices in volunteer-driven organization",
+      "Created detailed architecture documentation and application landscape overview"
     ],
     "tech": ["Creatio", "CRM", "Marketing automation", "Low-code", "Process design", "Data & integrations", "Documentation"],
     "context": { "domain": "Civic/impact", "team": "Citizen cooperative (lean team + volunteers)", "waysOfWorking": "Agile, step-by-step delivery with frequent feedback" }
   },
   {
     "id": "pwf-devsecops-2025",
-    "role": "Security-critical trust services in a regulated notarial environment",
-    "org": "DevSecOps engineering and operational delivery.",
+    "title": "Security-critical trust services in a regulated notarial environment",
+    "role": "DevSecOps Engineer & Architect",
+    "company": "PWFDiensten",
     "period": "2025–present",
     "description": [
       "In a three-person delivery team we replaced existing contracts with multinational vendors by taking ownership of both software and platform delivery.",
       "We redesigned, simplified and re-implemented the software, migrated the infrastructure to the desired Kubernetes provider, and then ran and optimized the service for six months in production.",
       "The result: materially reduced operational complexity and significantly lower costs - without sacrificing reliability or security."
+    ],
+    "detailedDescription": [
+      "PWFDiensten, a sister organization of NotarisID and subsidiary of the Royal Dutch Notarial Professional Organization, operates an identity verification service for notaries to comply with the Dutch Money Laundering and Terrorist Financing Prevention Act.",
+      "The organization required a fundamental transformation: terminating collaboration with the French system integrator, removing outdated requirements accumulated since 2018, and migrating to modern infrastructure. Together with a colleague, I led the complete architectural revision, platform redevelopment, and infrastructure migration.",
+      "Following the migration, I am fulfilling a 6-month operational role as DevSecOps engineer, providing platform management, security monitoring, and continued development while transferring knowledge and operations to the permanent internal team."
     ],
     "outcomes": [
       "Replaced multinational vendor contracts with an internal three-person delivery team",
@@ -33,18 +57,37 @@
       "Migrated infrastructure to the target Kubernetes provider and stabilized production operations",
       "Operated and optimized the service for 6 months post-migration, reducing cost and complexity"
     ],
-    "tech": ["Kubernetes", "Cloud/Kubernetes provider migration", "CI/CD", "Observability", "DevSecOps", "Security", "Node.js"],
+    "detailedOutcomes": [
+      "Architectural redesign removing legacy requirements and simplifying the solution",
+      "Complete redevelopment and containerization of the platform with Docker",
+      "Infrastructure migration to new Kubernetes clusters across OTAP environments",
+      "Automated deployment processes using Helm and Flux",
+      "Technical documentation of architecture, design, and implementation",
+      "ISO 27001 compliance alignment and policy updates",
+      "Successfully redesigned and migrated production service with zero downtime",
+      "Established modern DevSecOps practices and CI/CD pipelines",
+      "Reduced technical debt and simplified architecture significantly",
+      "Created comprehensive documentation enabling organizational autonomy",
+      "Smooth handover process ensuring continuity and knowledge transfer"
+    ],
+    "tech": ["Kubernetes", "Helm", "Flux", "Docker", "CI/CD", "Observability", "DevSecOps", "Security", "Node.js", "ISO 27001"],
     "context": { "domain": "Regulated IT", "team": "3-person delivery team", "waysOfWorking": "Agile, incremental delivery with production ownership" }
   },
   {
     "id": "data-migration-2021",
-    "role": "Large-scale data migration and integration in an international retail landscape.",
-    "org": "Hands-on delivery and technical coordination.",
+    "title": "Large-scale HR document migration to PeopleDoc for an international retailer.",
+    "role": "Document Management & Migration Consultant",
+    "company": "Action (Retail)",
     "period": "2021–present",
     "description": [
       "A three-part engagement: (1) assessment and migration planning, (2) implementation of the approach and tooling, and (3) executing the migrations at scale.",
-      "The program migrated ~5 million employee documents from multiple sources into a new HR DMS for an international retail organization. I assessed the involved countries and their document landscapes and designed a pragmatic, verifiable approach.",
+      "The program migrated ~5 million employee documents from multiple sources into PeopleDoc (HR document management system) for an international retail organization. I assessed the involved countries and their document landscapes and designed a pragmatic, verifiable approach.",
       "After approval I implemented the approach as a Node.js migration pipeline, integrating DocShifter to convert documents to PDF. Using the delivered tooling and runbooks, I executed the migrations for 10 European countries."
+    ],
+    "detailedDescription": [
+      "End of 2021 and early 2022, in a first phase, I analyzed, classified, and mapped the documents to be migrated with owners spread across Europe. For this, I wrote scripts that scan documents on disk and write their properties to a database. Based on the database, it is determined what type of documents they are and reports are generated.",
+      "The second phase consists of actually preparing the migration in terms of process design and fulfilling all preconditions. Starting points are that every action with a document must be traceable and that owners can be responsible for data quality.",
+      "The process is implemented in a 'migration pipeline' realized based on Node.js and a SQL database. Because it is a modular pipeline, documents from other sources can also be added to the process. In this way, documents from Topdesk and ImageNow are now also being migrated."
     ],
     "outcomes": [
       "Assessment and approach designed across 10 European countries (international retail)",
@@ -52,18 +95,33 @@
       "Delivered runbooks and repeatable tooling to execute migrations predictably and safely",
       "Executed migrations for ~5 million employee documents into the new HR DMS"
     ],
-    "tech": ["Node.js", "DocShifter", "Migration pipeline", "ETL", "Validation & reconciliation", "Runbooks", "HR DMS"],
+    "detailedOutcomes": [
+      "Designed and implemented automated migration pipeline with full audit trail",
+      "Successfully migrated HR documents from multiple sources (network drives, Topdesk, ImageNow) to PeopleDoc",
+      "Ensured data quality through owner validation processes",
+      "Created comprehensive documentation and destruction lists for documents outside retention periods",
+      "Phased migration approach per country and employee status"
+    ],
+    "tech": ["Node.js", "SQL", "DocShifter", "Migration pipeline", "ETL", "Validation & reconciliation", "Runbooks", "PeopleDoc"],
     "context": { "domain": "HR document management (international retail)", "team": "Lean team with high accountability", "waysOfWorking": "Iterative, checkpoint-driven delivery" }
   },
   {
     "id": "qts-po-2019",
-    "role": "Qualified electronic signature services under eIDAS regulation.",
-    "org": "End-to-end product ownership and delivery.",
-    "period": "2019–2023",
+    "title": "Qualified electronic signature services under eIDAS regulation.",
+    "role": "Product Owner Qualified Trust Services",
+    "company": "NotarisID",
+    "period": "2019–2024",
     "description": [
       "We rebuilt a qualified certificate issuance service from the ground up because the solution that had evolved over the previous years was not certifiable against the ETSI standards under eIDAS. We deliberately threw it away and implemented a fit-for-purpose service designed to pass audit and operate reliably in production.",
       "My formal role was Product Owner, but the work was hybrid: I wrote software, produced the technical documentation set, and translated regulatory requirements into implementable designs and user stories.",
       "I designed, documented and executed the key ceremony, and then ran the service in production for ~6 months to stabilize and optimize operations before handover."
+    ],
+    "detailedDescription": [
+      "This company is the holding of two operating companies for authentication services for the notarial profession. I joined in 2019 for the implementation of document management based on Alfresco, in the role of product owner.",
+      "Identity Document Authentication (2019-2021): In 2020, this service went live. At that time, a central infrastructure based on Kubernetes and VMware was implemented, a rough architecture was sketched, partners were onboarded, and software was developed. Additionally, 900 notary offices became customers, and ID scanners were purchased, configured, and rolled out to these offices.",
+      "Although I call myself product owner of this service in retrospect, in the early days I was the linchpin filling all gaps. I was the product owner for software developers, liaison to the partner responsible for delivering ID scanners and verification software, and the partner responsible for delivering and managing the infrastructure. I set up the first service management processes and answered questions that came in via phone and email.",
+      "Qualified Electronic Signatures (2021-2024): The second service is the issuance of certificates for electronic signatures. In 2022, a new team - including myself - delivered a service that precisely answered the client's requirements: implementing a certificate issuance service with which users can place qualified electronic signatures.",
+      "My role again carried the title of product owner, but my work extended beyond that. I was responsible for creating designs and user stories for the entire service. During the project phase, I also designed, planned, and led the Key Ceremony, and due to circumstances, was also the operator during the key ceremony. Due to capacity shortages, I also implemented several components."
     ],
     "outcomes": [
       "Rebuilt a qualified certificate issuance service to be certifiable under eIDAS/ETSI (fit-for-purpose, audit-ready)",
@@ -72,18 +130,29 @@
       "Achieved certification outcomes in a relatively short timeframe: ISO 27001 and relevant ETSI standards under eIDAS",
       "Organization recognized as one of a small number of Dutch providers at the highest European qualification level for certificate issuance"
     ],
-    "tech": ["PKI", "Qualified certificates", "eIDAS", "ETSI", "Certificate issuance", "Key ceremony", "ISO 27001", "Kubernetes", "VMware", "Technical writing"],
+    "detailedOutcomes": [
+      "Successfully launched identity verification service serving 900+ notary offices",
+      "Led the organization to become one of six organizations in the Netherlands recognized for issuing certificates at the highest European level under eIDAS regulation",
+      "Designed and executed critical Key Ceremony procedures",
+      "Established service management processes from scratch"
+    ],
+    "tech": ["PKI", "Qualified certificates", "eIDAS", "ETSI", "Certificate issuance", "Key ceremony", "ISO 27001", "Kubernetes", "VMware", "Alfresco", "Technical writing"],
     "context": { "domain": "Qualified trust services (notariat)", "team": "Lean team with partners + vendors", "waysOfWorking": "Agile, step-by-step delivery under regulatory constraints with auditability" }
   },
   {
     "id": "ciam-po-2023",
-    "role": "Enterprise IAM platform within a global professional services firm.",
-    "org": "Product ownership at scale.",
+    "title": "Enterprise IAM platform within a global professional services firm.",
+    "role": "Product Owner Customer Identity & Access Management",
+    "company": "Global Accounting Firm",
     "period": "2023–2025",
     "description": [
       "I took over ownership of an Okta CIAM implementation that had not been actively maintained for ~8 years and had been implemented as a \"byproduct\" - while still managing ~100,000 customer accounts.",
       "I assembled a three-person team and brought the service back under control: cleanup, documentation, operational hygiene and clear ownership.",
       "We \"emancipated\" the CIAM capability into a first-class platform and made it fit for use across all public apps of a global top-10 accountancy firm, then transferred it back to the organization for ongoing operations and development."
+    ],
+    "detailedDescription": [
+      "This project focused on transforming an existing Customer Identity Provider within a global accounting firm. The identity provider had been operational for 8 years but had grown organically without clear vision or central management.",
+      "As Product Owner, I fundamentally transformed the identity provider into a central Customer Identity & Access Management (CIAM) solution. This transformation included developing a clear vision and strategy for CIAM within the organization, centralizing management and governance, fully utilizing the capabilities of the underlying technology, and positioning the identity provider as the central access point for all customer-facing services."
     ],
     "outcomes": [
       "Stabilized and modernized a neglected CIAM implementation while continuing to support ~100,000 managed accounts",
@@ -91,13 +160,21 @@
       "Created a reusable CIAM platform suitable for all public-facing applications within a global top-10 accountancy firm",
       "Handover completed: cleaned up, documented and transferred back to the organization for long-term operation and evolution"
     ],
+    "detailedOutcomes": [
+      "Transformed fragmented identity provider into unified CIAM solution",
+      "Implemented Single Sign-On for all customer-facing services",
+      "Centralized governance and management",
+      "Improved user experience and enhanced security",
+      "Created scalable and future-proof identity infrastructure"
+    ],
     "tech": ["Okta", "CIAM", "SSO", "OAuth/OIDC", "APIs", "IAM", "Security", "Technical writing"],
     "context": { "domain": "Customer identity & access", "team": "3-person team + multiple stakeholders", "waysOfWorking": "Agile, step-by-step delivery with room for learning" }
   },
   {
     "id": "shipping-architect-2023",
-    "role": "Enterprise IT architecture in a globally operating gas tanker shipping company",
-    "org": "Enterprise architect (pragmatic, project-embedded)",
+    "title": "Enterprise IT architecture in a globally operating gas tanker shipping company",
+    "role": "Architect",
+    "company": "Anthony Veder Rederijzaken",
     "period": "2023–2024",
     "description": [
       "Introduced architecture as a steering instrument in IT projects for a globally operating gas tanker shipping company (≈300 shore staff, ≈1,000 at sea). The IT department was compact and highly dependent on external capacity.",
@@ -105,76 +182,121 @@
       "A key issue was that infrastructure and application knowledge was implicit and concentrated in a small group. With high turnover and short-term external engagement, this reduced predictability in projects and planning.",
       "To address this, I established a central architecture description/repository to capture and make knowledge accessible for teams and new joiners. The engagement ended before architecture could be structurally embedded due to broader organizational constraints, but the delivered principles and documentation form a concrete base to build on."
     ],
+    "detailedDescription": [
+      "For a global gas tanker shipping company (300 office employees, 1,000 at sea), I initiated architecture as a discipline within the organization.",
+      "The idea was to gradually introduce working under architecture in this small organization. By participating as project architect in projects, I could learn where bottlenecks exist and where needs arise. Simultaneously, I would abstract existing non-functional requirements and new requirements from those projects into architectural principles that could provide guidance in projects.",
+      "It became clear that employees lacked knowledge of the infrastructure and application landscape, preventing them from functioning effectively. As a result, I made all knowledge that came to my attention explicit in an architecture description in Notion."
+    ],
     "outcomes": [
       "Architecture principles defined and adopted by management",
       "Pragmatic guidelines produced to steer future projects without heavy governance",
       "Central architecture repository created to make implicit system knowledge explicit and reusable",
       "Improved visibility of dependencies, constraints and recurring non-functional requirements across projects"
     ],
-    "tech": ["Architecture principles", "Non-functional requirements", "System documentation", "Repository/knowledge base", "Stakeholder alignment"],
+    "detailedOutcomes": [
+      "Created comprehensive architecture repository in Notion documenting infrastructure and application landscape",
+      "Developed and established architectural principles endorsed by management",
+      "Improved knowledge transfer and reduced dependency on individuals with historical knowledge",
+      "Supported multiple projects as project architect"
+    ],
+    "tech": ["Architecture principles", "Non-functional requirements", "System documentation", "Notion", "Stakeholder alignment"],
     "context": { "domain": "Maritime / shipping", "team": "Compact IT with external vendors/contractors", "waysOfWorking": "Pragmatic, incremental introduction of architecture" }
   },
   {
     "id": "cloudguide-2021",
-    "role": "IAM and CIAM delivery for multiple end clients via a reseller model",
-    "org": "IAM/CIAM consultant & implementer",
+    "title": "IAM and CIAM delivery for multiple end clients via a reseller model",
+    "role": "Implementation Consultant",
+    "company": "CloudGuide",
     "period": "2021–present",
     "description": [
       "Consultancy and implementation work for an Okta reseller, delivering Okta IAM/CIAM solutions for end clients.",
       "Typical work includes integration design (SSO, OAuth/OIDC), tenant configuration, automation, and making the setup operable with clear governance and onboarding.",
       "The focus is not just \"go-live\", but a handover-ready implementation with documentation and a delivery approach that client teams can sustain."
     ],
+    "detailedDescription": [
+      "Since 2021, I have been affiliated with CloudGuide. CloudGuide helps companies with the purchase of best-of-breed cloud products, including Okta, Box, and Asana. I support CloudGuide with implementation of these products and advice before and during their use.",
+      "The products that CloudGuide carries form the foundation of every (starting) company. CloudGuide focuses on start-ups and scale-ups that need fast and smooth on- and offboarding processes (Okta) and safe and easy collaboration with people inside and outside the company (Box).",
+      "Clients include: ForvisMazars, Anthony Veder, Accell, NieuweStroom, and Holmatro."
+    ],
     "outcomes": [
       "Okta IAM/CIAM implementations delivered for multiple end clients via a reseller",
       "Working integrations (SSO / OAuth/OIDC) with repeatable configuration patterns",
       "Clear governance, onboarding and operational handover for client teams"
     ],
-    "tech": ["Okta", "IAM", "CIAM", "SSO", "OAuth/OIDC", "Automation", "Documentation"],
+    "tech": ["Okta", "Box", "Asana", "IAM", "CIAM", "SSO", "OAuth/OIDC", "Automation", "Documentation"],
     "context": { "domain": "Identity & access management", "team": "Reseller + client delivery teams", "waysOfWorking": "Incremental rollout with clear handover" }
   },
   {
     "id": "info-arch-2019",
-    "role": "Information architecture in the Dutch public sector under Common Ground principles",
-    "org": "Information architect",
+    "title": "Information architecture in the Dutch public sector under Common Ground principles",
+    "role": "Information Architect",
+    "company": "Municipality of Delft, IPO, VNG Realisatie",
     "period": "2019–2020",
     "description": [
       "Information architect for VNG Realisatie, Gemeente Delft and BIJ12, focused on the Dutch Common Ground principles: making data and application landscapes modern, modular and adaptable.",
       "A key part of the work was getting design values and architecture principles adopted across stakeholders - translating abstract \"Common Ground\" ideas into practical choices teams could apply in projects."
+    ],
+    "detailedDescription": [
+      "As Information Architect, I worked with multiple government organizations to make them agile, autonomous, and responsive through intelligent distribution of responsibilities across architectural layers.",
+      "The core challenge in these organizations was the tension between centralized control and local autonomy. My approach focused on designing information architectures that clearly defined responsibilities at different architectural layers - from business processes to data management to technical infrastructure - enabling organizations to respond quickly to changes while maintaining coherence and governance."
     ],
     "outcomes": [
       "Shared design values and architecture principles adopted by stakeholders (Common Ground aligned)",
       "Pragmatic guidance to modernize and modularize the data/application landscape",
       "Documentation and decision support that teams could reuse across initiatives"
     ],
+    "detailedOutcomes": [
+      "Enabled organizations to make faster, more autonomous decisions by clarifying architectural responsibilities",
+      "Designed layered architectures that reduced dependencies and increased organizational responsiveness",
+      "Established architectural governance that balanced control with flexibility",
+      "Improved collaboration between business and IT through clear architectural interfaces"
+    ],
     "tech": ["Common Ground", "Architecture principles", "Information architecture", "Data landscape", "Governance", "Documentation"],
     "context": { "domain": "Public sector (Common Ground)", "team": "Business + IT stakeholders", "waysOfWorking": "Iterative discovery and alignment" }
   },
   {
     "id": "contezza-owner-2008",
-    "role": "Founding and growing a boutique consultancy into an implementation-focused software company",
-    "org": "Founder & delivery lead",
+    "title": "Founding and growing a boutique consultancy into an implementation-focused software company",
+    "role": "Principal Consultant",
+    "company": "Contezza B.V.",
     "period": "2008–2019",
     "description": [
       "I founded Contezza as a small boutique consultancy and grew it into an implementation and software development company of ~15 people.",
       "Over time I deliberately chose content and personal agility over management: I handed day-to-day management over to my two business partners so I could stay close to delivery and keep my own flexibility."
+    ],
+    "detailedDescription": [
+      "Co-founded Contezza in 2008 together with a partner as a vehicle for doing independent work in a team environment. Contezza grew into a company of nearly 15 team members and evolved into an information management implementation firm, mainly based on the Alfresco product.",
+      "Notable Projects: Designed and implemented a Common Ground architecture (avant la lettre) for the Municipality of Amsterdam (Alfresco); Information architecture and business analysis for 8 migrations for Servicecentrum Drechtsteden (Alfresco); Innovation track advisor for the Municipality of Utrecht (Alfresco); Document management implementation for FNV, including knowledge management proof-of-concept and training delivery (OpenText Content Server); Content Management design and implementation for CroonWolter&Dros, including training delivery (Alfresco); Content Repository and Publication environment development for Uitgeverij OntwikkelCentrum (Alfresco); Collaboration environment design and implementation for the Municipality of Utrecht (Alfresco); Editorial platform implementation for KICK protocols for Vilans (Alfresco); Knowledge management implementation for Stichting MOVISIE, including training delivery (Alfresco); Livelink Content Server implementation for TNT Express, including training development and delivery (OpenText Content Server); Archive component design for the GovUnited program (Alfresco); Functional Management setup for OpenText Livelink at Province of South Holland (OpenText Content Server).",
+      "As co-owner of the growing company, I was also responsible for sales, account management, project management, and team leadership."
     ],
     "outcomes": [
       "Grew a boutique consultancy into a ~15-person implementation and software development firm",
       "Delivered end-to-end implementations across multiple client contexts",
       "Leadership handover: management transferred to partners to stay delivery-focused and agile"
     ],
-    "tech": ["Consulting", "Delivery", "Implementation", "Software development", "Stakeholder management"],
+    "tech": ["Alfresco", "OpenText Content Server", "OpenText Livelink", "ECM", "Consulting", "Delivery", "Implementation", "Software development", "Stakeholder management"],
     "context": { "domain": "Multiple", "team": "Founder-led team growing to ~15", "waysOfWorking": "Pragmatic, step-by-step delivery" }
   },
   {
     "id": "afm-info-2004",
-    "role": "Information management in a regulated financial supervision environment",
-    "org": "Information specialist",
+    "title": "Information management in a regulated financial supervision environment",
+    "role": "Senior Information Specialist",
+    "company": "Dutch Authority for the Financial Markets (AFM)",
     "period": "2004–2008",
     "description": [
       "I worked at the AFM during the period when new supervisory responsibilities were assigned by the Dutch government. I helped implement these new tasks from an information management perspective: making intake, processing and retrieval of evidence predictable and auditable.",
       "I implemented OpenText Livelink to support the new workflows, and helped digitize and classify incoming physical documents using Kofax.",
       "For a period I was also responsible for the data warehouse built on Business Objects, supporting reporting and management information needs."
+    ],
+    "detailedDescription": [
+      "Responsible for optimizing the deployment of Kofax Ascent Capture and OpenText Livelink within business processes.",
+      "Developed multiple workflow applications for fine dossier transfer, financial market entry processes (licensing and reliability assessments), Public Prosecutor notifications, invoice authorization, and training authorization using OpenText Livelink, Livelink Webreports, and JavaScript.",
+      "Developed methodology for publication of product and service catalogs, including internal training catalog with XML-based publication from HR systems, Livelink workflow-based requests and approvals, and feedback loop to HR systems.",
+      "Developed vision and methodology for deploying knowledge centers within the organization based on metadata, fully leveraging Livelink's XML and XSLT capabilities including XML schema development, standard XSLT stylesheets, and custom XML content editor integration.",
+      "Developed Livelink application for recording and accessing supervisory signals with XML/XSLT-based personalization and Webreports, including metadata connections to external databases (licensing registers).",
+      "Developed various Kofax 'Batch Classes' for standard capturing of physical documents with intelligent validation scripts for metadata selection and custom release scripts for automatic document placement in the correct Livelink dossier locations.",
+      "Application management responsibilities including incident resolution, support for functional information specialists, installation of new Livelink environments, and testing/deployment of new functionality.",
+      "Data warehouse management including data mart definition and report design (12-month period)."
     ],
     "outcomes": [
       "Implemented information management capabilities to support new supervisory responsibilities (audit-ready workflows)",
@@ -182,25 +304,32 @@
       "Digitization and classification flow implemented for incoming physical documents (Kofax)",
       "Data warehouse responsibility (Business Objects) to support reporting and management information"
     ],
-    "tech": ["OpenText Livelink", "Kofax", "Business Objects", "Information management", "Governance", "Compliance"],
+    "tech": ["OpenText Livelink", "Livelink Webreports", "Kofax Ascent Capture", "Business Objects", "XML", "XSLT", "JavaScript", "Information management", "Governance", "Compliance"],
     "context": { "domain": "Financial supervision & regulation", "team": "Business + IT", "waysOfWorking": "Pragmatic implementation and adoption" }
   },
   {
     "id": "siennax-impl-1999",
-    "role": "Enterprise software implementations in a startup and scale-up context",
-    "org": "Implementation consultant & project lead",
+    "title": "Enterprise software implementations in a startup and scale-up context",
+    "role": "Project Manager & Implementation Consultant",
+    "company": "Siennax BV",
     "period": "1999–2004",
     "description": [
       "I joined startup Siennax as an implementation consultant and grew into a project manager / project lead role.",
       "I was the \"oil in the machine\": connecting sales, delivery and operations, filling gaps, removing blockers, and making implementations succeed end-to-end.",
       "Over time I deliberately chose content over a further management track, which led to my next step: moving to the AFM as an information manager in a regulated environment."
     ],
+    "detailedDescription": [
+      "Technical Project Leader: Responsible for technically complex application hosting projects on Linux systems, BEA WebLogic application servers, LDAP directory servers, and Oracle databases. Added value through technical requirements analysis, project direction, and stakeholder communication.",
+      "Key Projects: Implementation and migration to messaging platform for the insurance industry; Extranet implementation for all notaries in the Netherlands with various external system integrations and extensive security measures; Application implementation for national mortgage advisory organization enabling online mortgage comparison and completion; Messaging system implementation for insurance intermediaries, assessment agencies, and insurance companies; Migration from iPlanet Directory Server to OpenLDAP directory server.",
+      "Implementation Consultant: Project and content responsibility for implementing knowledge management/project management/intranet systems largely based on Stellent Content Server (IntraDoc). Responsibilities included goal and deadline management, information analysis, functional system design, and end-user training. Clients included: Animal Health Service, AVR Waste Processing Rotterdam, Pentascope, VisserCopini Consultants, KPN Telecom (5 projects), and Municipality of The Hague.",
+      "Enterprise Document Management: Pre-sales consultant and technical/functional consultant focused on solving information flow and information provision problems within organizations. Delivered solutions based on Documentum 4i and Autonomy for Web Content Management, Knowledge Management, and knowledge portals."
+    ],
     "outcomes": [
       "Grew from implementation consultant to project manager in a startup environment",
       "Delivered end-to-end implementations with clear handover and pragmatic stakeholder alignment",
       "Built a reputation for making complex delivery predictable by bridging functions and closing gaps"
     ],
-    "tech": ["Implementation", "Project management", "Stakeholder management", "Delivery"],
+    "tech": ["Stellent Content Server", "Documentum 4i", "Autonomy", "Linux", "BEA WebLogic", "LDAP", "Oracle", "OpenLDAP", "Implementation", "Project management", "Stakeholder management"],
     "context": { "domain": "Enterprise implementations", "team": "Startup project teams", "waysOfWorking": "Hands-on, structured delivery" }
   }
 ]

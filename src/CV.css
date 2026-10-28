@@ -15,12 +15,12 @@
 .cvDocument {
   max-width: 210mm;
   margin: 0 auto;
-  background: white;
+  background: #fff;
   padding: 40px 50px;
   box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
   font-size: 11pt;
   line-height: 1.5;
-  color: #1a1a1a;
+  color: var(--gg-ink);
 }
 
 .cvHeader {
@@ -28,8 +28,12 @@
   justify-content: space-between;
   align-items: flex-start;
   padding-bottom: 24px;
-  border-bottom: 2px solid #1a1a1a;
+  border-bottom: 2px solid var(--gg-cyan);
   margin-bottom: 24px;
+  background: var(--gg-amber);
+  margin: -40px -50px 24px;
+  padding: 40px 50px 24px;
+  color: #fff;
 }
 
 .cvName {
@@ -43,12 +47,12 @@
   font-size: 14pt;
   font-weight: 600;
   margin: 0 0 8px;
-  color: #333;
+  color: #fff;
 }
 
 .cvTagline {
   font-size: 10pt;
-  color: #666;
+  color: rgba(255, 255, 255, 0.85);
   margin: 0;
   max-width: 400px;
 }
@@ -71,10 +75,11 @@
   font-weight: 700;
   text-transform: uppercase;
   letter-spacing: 0.05em;
-  border-bottom: 1px solid #ccc;
+  border-bottom: 1px solid var(--gg-cyan);
   padding-bottom: 6px;
   margin: 0 0 14px;
-}
+  color: var(--gg-amber);
+  }
 
 .cvText {
   margin: 0 0 8px;
@@ -82,8 +87,14 @@
 }
 
 .cvExperience {
-  margin-bottom: 18px;
+  margin-bottom: 20px;
+  padding-bottom: 16px;
+  border-bottom: 1px solid rgba(0, 0, 0, 0.1);
   page-break-inside: avoid;
+}
+
+.cvExperience:last-child {
+  border-bottom: none;
 }
 
 .cvExpHeader {
@@ -95,50 +106,73 @@
 .cvExpRole {
   font-weight: 600;
   font-size: 11pt;
+  color: var(--gg-amber);
+  flex: 1;
+  padding-right: 16px;
 }
 
 .cvExpPeriod {
   font-size: 10pt;
-  color: #666;
+  color: var(--gg-ink);
+  opacity: 0.7;
+  white-space: nowrap;
+  flex-shrink: 0;
 }
 
 .cvExpOrg {
   font-size: 10pt;
-  color: #444;
+  color: var(--gg-amber);
   margin-bottom: 6px;
-}
+  }
 
 .cvExpDescription {
   font-size: 10pt;
-  margin-bottom: 6px;
-}
-
-.cvExpDescription p {
-  margin: 0 0 4px;
+  margin: 8px 0 10px;
+  line-height: 1.5;
+  text-align: justify;
 }
 
 .cvExpOutcomes {
   font-size: 9pt;
-  margin-bottom: 4px;
+  margin-bottom: 8px;
 }
 
+.cvExpOutcomes strong {
+  display: block;
+  margin-bottom: 4px;
+  color: var(--gg-amber);
+  }
+
 .cvExpOutcomes ul {
-  margin: 4px 0 0;
-  padding-left: 18px;
+  margin: 0;
+  padding-left: 16px;
+  columns: 2;
+  column-gap: 20px;
 }
 
 .cvExpOutcomes li {
-  margin-bottom: 2px;
+  margin-bottom: 3px;
+  break-inside: avoid;
 }
 
 .cvExpTech {
   font-size: 9pt;
-  color: #666;
+  color: var(--gg-ink);
+  background: rgba(21, 189, 202, 0.1);
+  padding: 6px 10px;
+  border-radius: 4px;
+  margin-top: 8px;
 }
 
 .cvEducation {
-  margin-bottom: 14px;
+  margin-bottom: 16px;
+  padding-bottom: 12px;
+  border-bottom: 1px solid rgba(0, 0, 0, 0.1);
   page-break-inside: avoid;
+}
+
+.cvEducation:last-child {
+  border-bottom: none;
 }
 
 .cvEduHeader {
@@ -154,12 +188,13 @@
 
 .cvEduPeriod {
   font-size: 10pt;
-  color: #666;
+  color: var(--gg-ink);
+  opacity: 0.7;
 }
 
 .cvEduInstitution {
   font-size: 10pt;
-  color: #444;
+  color: var(--gg-ink);
   margin-bottom: 4px;
 }
 
@@ -181,24 +216,36 @@
   font-size: 10pt;
   font-weight: 600;
   margin: 0 0 4px;
-}
+  color: var(--gg-amber);
+  }
 
 .cvCompetencyGroup p {
   font-size: 9pt;
   margin: 0;
-  color: #444;
+  color: var(--gg-ink);
+}
+
+.cvLanguages {
+  display: flex;
+  gap: 24px;
+  flex-wrap: wrap;
+}
+
+.cvLanguage {
+  font-size: 10pt;
 }
 
 .cvFooter {
   margin-top: 30px;
   padding-top: 16px;
-  border-top: 1px solid #ccc;
+  border-top: 1px solid var(--gg-cyan);
   text-align: center;
 }
 
 .cvFooterText {
   font-size: 9pt;
-  color: #666;
+  color: var(--gg-ink);
+  opacity: 0.7;
 }
 
 /* Print styles */

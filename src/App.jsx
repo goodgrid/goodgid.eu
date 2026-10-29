@@ -116,8 +116,6 @@ function App() {
               <h1>{heroContent.headline}</h1>
               <p className="lead">{heroContent.lead}</p>
 
-              <p className="forWho">{heroContent.forWho}</p>
-
               <div className="heroCtas">
                 <a className="btn btnPrimary" href="#contact" data-umami-event="hero-cta-primary">{heroContent.cta.primary}</a>
                 <a className="btn btnGhost" href="#diensten" data-umami-event="hero-cta-secondary">{heroContent.cta.secondary}</a>
@@ -150,7 +148,9 @@ function App() {
           <div className="container">
             <div className="sectionHead">
               <h2>{profileContent.title}</h2>
-              <p className="muted">{profileContent.subtitle}</p>
+              {profileContent.subtitle.map((p, idx) => (
+                <p className="muted" key={idx}>{p}</p>
+              ))}
             </div>
 
             <div className="grid2">
@@ -194,35 +194,15 @@ function App() {
 
         <section className="section">
           <div className="container">
-            <div className="grid2">
-              <div className="card cardStrong">
-                <div className="cardTitle">Typical engagements</div>
-                <div className="list">
-                  {servicesContent.engagements.map((engagement, idx) => (
-                    <div className="listItem" key={idx}>
-                      <div className="listKey">{engagement.title}</div>
-                      <div className="listVal">{engagement.text}</div>
-                    </div>
-                  ))}
-                </div>
-              </div>
-
-              <div className="card photoCard" aria-label="In-context photo">
-                <div className="photoFrame photoFrameWide photoFrameHover" aria-label="Last time in an office">
-                  <img
-                    className="photoImg"
-                    src="/IMG_0838.jpeg"
-                    alt="In context"
-                    onError={(e) => {
-                      e.currentTarget.style.display = 'none'
-                    }}
-                  />
-                  <div className="photoOverlay" aria-hidden="true">{servicesContent.photoCaption.overlay}</div>
-                </div>
-                <div className="photoCaption">
-                  <div className="cardTitle">{servicesContent.photoCaption.title}</div>
-                  <div className="cardText">{servicesContent.photoCaption.subtitle}</div>
-                </div>
+            <div className="card cardStrong">
+              <div className="cardTitle">Typical engagements</div>
+              <div className="list">
+                {servicesContent.engagements.map((engagement, idx) => (
+                  <div className="listItem" key={idx}>
+                    <div className="listKey">{engagement.title}</div>
+                    <div className="listVal">{engagement.text}</div>
+                  </div>
+                ))}
               </div>
             </div>
           </div>
@@ -458,7 +438,7 @@ function App() {
             <img className="footerLogo" src="/embleem.png" alt={site.siteName} />
             <div>
               <div className="footerName">{site.siteName}</div>
-              <div className="footerTag">Freelance {heroContent.eyebrow.toLowerCase()}</div>
+              <div className="footerTag">{heroContent.eyebrow}</div>
             </div>
           </div>
           <div className="footerLinks">

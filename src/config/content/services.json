@@ -1,6 +1,6 @@
 {
   "title": "Services",
-  "subtitle": "One person, multiple roles. Ideal when you're too small for a large team, but still want mature IT delivery.",
+  "subtitle": "Architecture that spans technology, data and the operating model — designed for complex and regulated environments, built to leave the whiteboard.",
   "offerings": [
     {
       "badge": "Strategy → plan → delivery",
@@ -12,13 +12,13 @@
       "badge": "Architecture & product",
       "badgeColor": "pink",
       "title": "Design what works, build what's needed",
-      "text": "Practical architecture and product ownership: clear boundaries, integrations, data modeling and choices that remain maintainable."
+      "text": "Technology, data and the operating model, designed together: clear boundaries, integrations, and the decisions and delivery flow that make the design work in practice."
     },
     {
-      "badge": "DevOps & operations",
+      "badge": "Security & trust",
       "badgeColor": "amber",
-      "title": "Reliable in production",
-      "text": "CI/CD, Kubernetes, GitOps, monitoring and incident processes. I implement it and hand it over to your (new) team when the time is right."
+      "title": "Security and compliance by design",
+      "text": "Information security, data governance and auditability as part of the architecture, not a control added at the end. Proven under eIDAS and ISO 27001, backed by CISSP."
     }
   ],
   "engagements": [
@@ -31,17 +31,12 @@
       "text": "From roadmap to implementation and operations."
     },
     {
-      "title": "Accelerate DevOps",
-      "text": "Kubernetes, GitOps, CI/CD and observability."
+      "title": "Identity & access architecture",
+      "text": "IAM/CIAM, SSO, OAuth/OIDC and user lifecycle flows — designed to be governable and auditable."
     },
     {
       "title": "Compliance-ready delivery",
       "text": "Security, privacy, audits and certifications."
     }
-  ],
-  "photoCaption": {
-    "title": "Practical & outcome-driven",
-    "subtitle": "Less talk, more delivery. I ship, document, and hand over.",
-    "overlay": "Last time I worked in an office (2011) 😂"
-  }
+  ]
 }

@@ -1,45 +1,9 @@
 [
   {
-    "id": "creatio-crm-po",
-    "title": "CRM and marketing automation for a citizen cooperative in transition.",
-    "role": "Product ownership and delivery",
-    "company": "Land van Ons",
-    "period": "2025–present",
-    "description": [
-      "Product ownership for the implementation of Creatio Marketing/CRM for a citizen cooperative working on the food and biodiversity transition.",
-      "I do this engagement pro bono (zero rate) to contribute to solving societal challenges.",
-      "I translate goals into a practical backlog, align stakeholders, and help deliver a system that volunteers and small teams can actually run and evolve."
-    ],
-    "detailedDescription": [
-      "Land van Ons is a unique cooperative where citizens work together to purchase farmland, manage it sustainably, and restore biodiversity of soil, plants, and animals while keeping it agricultural land.",
-      "As Product Owner for the Creatio CRM implementation, I am responsible for the digital transformation of volunteer and member management systems. This includes designing and implementing a comprehensive CRM solution that supports marketing automation, volunteer coordination, member engagement, and integration with the broader application landscape."
-    ],
-    "outcomes": [
-      "Clear scope, priorities and roadmap for marketing/CRM enablement",
-      "Incremental implementation with working software and documented processes",
-      "A maintainable setup that supports volunteer-driven operations and handover"
-    ],
-    "detailedOutcomes": [
-      "Product Owner for Creatio CRM implementation serving 350+ volunteers and thousands of members",
-      "Architecture design for integration landscape including Identity Provider (Keycloak), Creatio CRM, eBoekhouden (accounting), Mollie (payments), and MijnGrond (member portal)",
-      "Product vision development for 'Ons kent Ons' social intranet platform",
-      "Evaluation and selection of collaboration platforms (SharePoint, Evoqia Portal, HumHub)",
-      "Stakeholder management across volunteer teams, board members, and external partners",
-      "Technical architecture documentation in Notion for knowledge sharing",
-      "Designed comprehensive integration architecture connecting multiple systems (IdP, CRM, accounting, payments)",
-      "Developed product visions for multiple domains including 'Ontmoeten' (community/collaboration) and contact management",
-      "Led vendor evaluation and partner selection process for Creatio implementation",
-      "Established structured product ownership practices in volunteer-driven organization",
-      "Created detailed architecture documentation and application landscape overview"
-    ],
-    "tech": ["Creatio", "CRM", "Marketing automation", "Low-code", "Process design", "Data & integrations", "Documentation"],
-    "context": { "domain": "Civic/impact", "team": "Citizen cooperative (lean team + volunteers)", "waysOfWorking": "Agile, step-by-step delivery with frequent feedback" }
-  },
-  {
     "id": "pwf-devsecops-2025",
     "title": "Security-critical trust services in a regulated notarial environment",
-    "role": "DevSecOps Engineer & Architect",
-    "company": "PWFDiensten",
+    "role": "Delivery Architect & DevSecOps Engineer",
+    "company": "KNB/PWFDiensten",
     "period": "2025–present",
     "description": [
       "In a three-person delivery team we replaced existing contracts with multinational vendors by taking ownership of both software and platform delivery.",
@@ -74,76 +38,46 @@
     "context": { "domain": "Regulated IT", "team": "3-person delivery team", "waysOfWorking": "Agile, incremental delivery with production ownership" }
   },
   {
-    "id": "data-migration-2021",
-    "title": "Large-scale HR document migration to PeopleDoc for an international retailer.",
-    "role": "Document Management & Migration Consultant",
-    "company": "Action (Retail)",
-    "period": "2021–present",
+    "id": "creatio-crm-po",
+    "title": "CRM and marketing automation for a citizen cooperative in transition.",
+    "role": "Product Owner CRM (pro bono)",
+    "company": "Land van Ons",
+    "period": "2024–present",
     "description": [
-      "A three-part engagement: (1) assessment and migration planning, (2) implementation of the approach and tooling, and (3) executing the migrations at scale.",
-      "The program migrated ~5 million employee documents from multiple sources into PeopleDoc (HR document management system) for an international retail organization. I assessed the involved countries and their document landscapes and designed a pragmatic, verifiable approach.",
-      "After approval I implemented the approach as a Node.js migration pipeline, integrating DocShifter to convert documents to PDF. Using the delivered tooling and runbooks, I executed the migrations for 10 European countries."
+      "Product ownership for the implementation of Creatio Marketing/CRM for a citizen cooperative working on the food and biodiversity transition.",
+      "I do this engagement pro bono (zero rate) to contribute to solving societal challenges.",
+      "I translate goals into a practical backlog, align stakeholders, and help deliver a system that volunteers and small teams can actually run and evolve."
     ],
     "detailedDescription": [
-      "End of 2021 and early 2022, in a first phase, I analyzed, classified, and mapped the documents to be migrated with owners spread across Europe. For this, I wrote scripts that scan documents on disk and write their properties to a database. Based on the database, it is determined what type of documents they are and reports are generated.",
-      "The second phase consists of actually preparing the migration in terms of process design and fulfilling all preconditions. Starting points are that every action with a document must be traceable and that owners can be responsible for data quality.",
-      "The process is implemented in a 'migration pipeline' realized based on Node.js and a SQL database. Because it is a modular pipeline, documents from other sources can also be added to the process. In this way, documents from Topdesk and ImageNow are now also being migrated."
+      "Land van Ons is a unique cooperative where citizens work together to purchase farmland, manage it sustainably, and restore biodiversity of soil, plants, and animals while keeping it agricultural land.",
+      "As Product Owner for the Creatio CRM implementation, I am responsible for the digital transformation of volunteer and member management systems. This includes designing and implementing a comprehensive CRM solution that supports marketing automation, volunteer coordination, member engagement, and integration with the broader application landscape."
     ],
     "outcomes": [
-      "Assessment and approach designed across 10 European countries (international retail)",
-      "Implemented a Node.js migration pipeline with DocShifter PDF conversion integration",
-      "Delivered runbooks and repeatable tooling to execute migrations predictably and safely",
-      "Executed migrations for ~5 million employee documents into the new HR DMS"
+      "Clear scope, priorities and roadmap for marketing/CRM enablement",
+      "Incremental implementation with working software and documented processes",
+      "A maintainable setup that supports volunteer-driven operations and handover"
     ],
     "detailedOutcomes": [
-      "Designed and implemented automated migration pipeline with full audit trail",
-      "Successfully migrated HR documents from multiple sources (network drives, Topdesk, ImageNow) to PeopleDoc",
-      "Ensured data quality through owner validation processes",
-      "Created comprehensive documentation and destruction lists for documents outside retention periods",
-      "Phased migration approach per country and employee status"
+      "Product Owner for Creatio CRM implementation serving 350+ volunteers and thousands of members",
+      "Architecture design for integration landscape including Identity Provider (Keycloak), Creatio CRM, eBoekhouden (accounting), Mollie (payments), and MijnGrond (member portal)",
+      "Product vision development for 'Ons kent Ons' social intranet platform",
+      "Evaluation and selection of collaboration platforms (SharePoint, Evoqia Portal, HumHub)",
+      "Stakeholder management across volunteer teams, board members, and external partners",
+      "Technical architecture documentation in Notion for knowledge sharing",
+      "Designed comprehensive integration architecture connecting multiple systems (IdP, CRM, accounting, payments)",
+      "Developed product visions for multiple domains including 'Ontmoeten' (community/collaboration) and contact management",
+      "Led vendor evaluation and partner selection process for Creatio implementation",
+      "Established structured product ownership practices in volunteer-driven organization",
+      "Created detailed architecture documentation and application landscape overview"
     ],
-    "tech": ["Node.js", "SQL", "DocShifter", "Migration pipeline", "ETL", "Validation & reconciliation", "Runbooks", "PeopleDoc"],
-    "context": { "domain": "HR document management (international retail)", "team": "Lean team with high accountability", "waysOfWorking": "Iterative, checkpoint-driven delivery" }
-  },
-  {
-    "id": "qts-po-2019",
-    "title": "Qualified electronic signature services under eIDAS regulation.",
-    "role": "Product Owner Qualified Trust Services",
-    "company": "NotarisID",
-    "period": "2019–2024",
-    "description": [
-      "We rebuilt a qualified certificate issuance service from the ground up because the solution that had evolved over the previous years was not certifiable against the ETSI standards under eIDAS. We deliberately threw it away and implemented a fit-for-purpose service designed to pass audit and operate reliably in production.",
-      "My formal role was Product Owner, but the work was hybrid: I wrote software, produced the technical documentation set, and translated regulatory requirements into implementable designs and user stories.",
-      "I designed, documented and executed the key ceremony, and then ran the service in production for ~6 months to stabilize and optimize operations before handover."
-    ],
-    "detailedDescription": [
-      "This company is the holding of two operating companies for authentication services for the notarial profession. I joined in 2019 for the implementation of document management based on Alfresco, in the role of product owner.",
-      "Identity Document Authentication (2019-2021): In 2020, this service went live. At that time, a central infrastructure based on Kubernetes and VMware was implemented, a rough architecture was sketched, partners were onboarded, and software was developed. Additionally, 900 notary offices became customers, and ID scanners were purchased, configured, and rolled out to these offices.",
-      "Although I call myself product owner of this service in retrospect, in the early days I was the linchpin filling all gaps. I was the product owner for software developers, liaison to the partner responsible for delivering ID scanners and verification software, and the partner responsible for delivering and managing the infrastructure. I set up the first service management processes and answered questions that came in via phone and email.",
-      "Qualified Electronic Signatures (2021-2024): The second service is the issuance of certificates for electronic signatures. In 2022, a new team - including myself - delivered a service that precisely answered the client's requirements: implementing a certificate issuance service with which users can place qualified electronic signatures.",
-      "My role again carried the title of product owner, but my work extended beyond that. I was responsible for creating designs and user stories for the entire service. During the project phase, I also designed, planned, and led the Key Ceremony, and due to circumstances, was also the operator during the key ceremony. Due to capacity shortages, I also implemented several components."
-    ],
-    "outcomes": [
-      "Rebuilt a qualified certificate issuance service to be certifiable under eIDAS/ETSI (fit-for-purpose, audit-ready)",
-      "Key ceremony designed, documented and executed; operational procedures and documentation brought to production standard",
-      "Production ownership for ~6 months: operated and optimized the service, then handed it back to the organization",
-      "Achieved certification outcomes in a relatively short timeframe: ISO 27001 and relevant ETSI standards under eIDAS",
-      "Organization recognized as one of a small number of Dutch providers at the highest European qualification level for certificate issuance"
-    ],
-    "detailedOutcomes": [
-      "Successfully launched identity verification service serving 900+ notary offices",
-      "Led the organization to become one of six organizations in the Netherlands recognized for issuing certificates at the highest European level under eIDAS regulation",
-      "Designed and executed critical Key Ceremony procedures",
-      "Established service management processes from scratch"
-    ],
-    "tech": ["PKI", "Qualified certificates", "eIDAS", "ETSI", "Certificate issuance", "Key ceremony", "ISO 27001", "Kubernetes", "VMware", "Alfresco", "Technical writing"],
-    "context": { "domain": "Qualified trust services (notariat)", "team": "Lean team with partners + vendors", "waysOfWorking": "Agile, step-by-step delivery under regulatory constraints with auditability" }
+    "tech": ["Creatio", "CRM", "Marketing automation", "Low-code", "Process design", "Data & integrations", "Documentation"],
+    "context": { "domain": "Civic/impact", "team": "Citizen cooperative (lean team + volunteers)", "waysOfWorking": "Agile, step-by-step delivery with frequent feedback" }
   },
   {
     "id": "ciam-po-2023",
     "title": "Enterprise IAM platform within a global professional services firm.",
-    "role": "Product Owner Customer Identity & Access Management",
-    "company": "Global Accounting Firm",
+    "role": "Product Owner Identity Management",
+    "company": "Forvis Mazars",
     "period": "2023–2025",
     "description": [
       "I took over ownership of an Okta CIAM implementation that had not been actively maintained for ~8 years and had been implemented as a \"byproduct\" - while still managing ~100,000 customer accounts.",
@@ -203,9 +137,70 @@
     "context": { "domain": "Maritime / shipping", "team": "Compact IT with external vendors/contractors", "waysOfWorking": "Pragmatic, incremental introduction of architecture" }
   },
   {
+    "id": "data-migration-2021",
+    "title": "Large-scale HR document migration to a new HR document management system for an international retailer.",
+    "role": "Integration Architect & Migration Engineer",
+    "company": "Action (Retail)",
+    "period": "2021–present",
+    "description": [
+      "A three-part engagement: (1) assessment and migration planning, (2) implementation of the approach and tooling, and (3) executing the migrations at scale.",
+      "The program migrated ~5 million employee documents from multiple sources into a new HR document management system for an international retail organization. I assessed the involved countries and their document landscapes and designed a pragmatic, verifiable approach.",
+      "After approval I implemented the approach as a Node.js migration pipeline, integrating DocShifter to convert documents to PDF. Using the delivered tooling and runbooks, I executed the migrations for 10 European countries."
+    ],
+    "detailedDescription": [
+      "End of 2021 and early 2022, in a first phase, I analyzed, classified, and mapped the documents to be migrated with owners spread across Europe. For this, I wrote scripts that scan documents on disk and write their properties to a database. Based on the database, it is determined what type of documents they are and reports are generated.",
+      "The second phase consists of actually preparing the migration in terms of process design and fulfilling all preconditions. Starting points are that every action with a document must be traceable and that owners can be responsible for data quality.",
+      "The process is implemented in a 'migration pipeline' realized based on Node.js and a SQL database. Because it is a modular pipeline, documents from other sources can also be added to the process. In this way, documents from Topdesk and ImageNow are now also being migrated."
+    ],
+    "outcomes": [
+      "Assessment and approach designed across 10 European countries (international retail)",
+      "Implemented a Node.js migration pipeline with DocShifter PDF conversion integration",
+      "Delivered runbooks and repeatable tooling to execute migrations predictably and safely",
+      "Executed migrations for ~5 million employee documents into the new HR DMS"
+    ],
+    "detailedOutcomes": [
+      "Designed and implemented automated migration pipeline with full audit trail",
+      "Successfully migrated HR documents from multiple sources (network drives, Topdesk, ImageNow) to a new HR document management system",
+      "Ensured data quality through owner validation processes",
+      "Created comprehensive documentation and destruction lists for documents outside retention periods",
+      "Phased migration approach per country and employee status"
+    ],
+    "tech": ["Node.js", "SQL", "DocShifter", "Migration pipeline", "ETL", "Validation & reconciliation", "Runbooks", "HR DMS"],
+    "context": { "domain": "HR document management (international retail)", "team": "Lean team with high accountability", "waysOfWorking": "Iterative, checkpoint-driven delivery" }
+  },
+  {
+    "id": "qts-po-2019",
+    "title": "Qualified electronic signature services under eIDAS regulation.",
+    "role": "Product Owner Qualified Trust Service",
+    "company": "KNB/NotarisID",
+    "period": "2021–2024",
+    "description": [
+      "We rebuilt a qualified certificate issuance service from the ground up because the solution that had evolved over the previous years was not certifiable against the ETSI standards under eIDAS. We deliberately threw it away and implemented a fit-for-purpose service designed to pass audit and operate reliably in production.",
+      "My formal role was Product Owner, but the work was hybrid: I wrote software, produced the technical documentation set, and translated regulatory requirements into implementable designs and user stories.",
+      "I designed, documented and executed the key ceremony, and then ran the service in production for ~6 months to stabilize and optimize operations before handover."
+    ],
+    "detailedDescription": [
+      "The second NotarisID service is the issuance of qualified certificates for electronic signatures. In 2022, a new team - including myself - delivered a service that precisely answered the client's requirements: a certificate issuance service with which users can place qualified electronic signatures.",
+      "My role carried the title of product owner, but my work extended beyond that. I was responsible for creating designs and user stories for the entire service. During the project phase, I also designed, planned, and led the Key Ceremony, and due to circumstances, was also the operator during the key ceremony. Due to capacity shortages, I also implemented several components."
+    ],
+    "outcomes": [
+      "Rebuilt a qualified certificate issuance service to be certifiable under eIDAS/ETSI (fit-for-purpose, audit-ready)",
+      "Key ceremony designed, documented and executed; operational procedures and documentation brought to production standard",
+      "Production ownership for ~6 months: operated and optimized the service, then handed it back to the organization",
+      "Achieved certification outcomes in a relatively short timeframe: ISO 27001 and relevant ETSI standards under eIDAS",
+      "Organization recognized as one of a small number of Dutch providers at the highest European qualification level for certificate issuance"
+    ],
+    "detailedOutcomes": [
+      "Led the organization to become one of six organizations in the Netherlands recognized for issuing certificates at the highest European level under eIDAS regulation",
+      "Designed and executed critical Key Ceremony procedures"
+    ],
+    "tech": ["PKI", "Qualified certificates", "eIDAS", "ETSI", "Certificate issuance", "Key ceremony", "ISO 27001", "EJBCA", "Technical writing"],
+    "context": { "domain": "Qualified trust services (notariat)", "team": "Lean team with partners + vendors", "waysOfWorking": "Agile, step-by-step delivery under regulatory constraints with auditability" }
+  },
+  {
     "id": "cloudguide-2021",
     "title": "IAM and CIAM delivery for multiple end clients via a reseller model",
-    "role": "Implementation Consultant",
+    "role": "Implementation and Delivery Consultant",
     "company": "CloudGuide",
     "period": "2021–present",
     "description": [
@@ -225,6 +220,37 @@
     ],
     "tech": ["Okta", "Box", "Asana", "IAM", "CIAM", "SSO", "OAuth/OIDC", "Automation", "Documentation"],
     "context": { "domain": "Identity & access management", "team": "Reseller + client delivery teams", "waysOfWorking": "Incremental rollout with clear handover" }
+  },
+  {
+    "id": "notarisid-platform-2019",
+    "title": "Build-out of the notarial digital services platform in its first phase.",
+    "role": "Product Owner Platform",
+    "company": "KNB/NotarisID",
+    "period": "2019–2020",
+    "description": [
+      "First-phase product ownership for the digital services platform of a notarial trust services provider.",
+      "I onboarded partners and brought their components into production: a European Kubernetes platform, ID verification software, document readers, Salesforce for service management, and Alfresco (later OpenText Content Server) for content management.",
+      "For the first service on the platform (identity verification under Dutch anti-money-laundering law), I designed, planned and controlled the roll-out of document readers to notary offices, and guided software realization and deployment through a demanding stakeholder landscape."
+    ],
+    "detailedDescription": [
+      "This company is the holding of two operating companies for authentication services for the notarial profession. I joined in 2019 for the implementation of document management based on Alfresco, in the role of product owner.",
+      "In 2020, the first service - Identity Document Authentication, branded 'Poortwachter Plus' - went live. At that time, a central infrastructure based on Kubernetes and VMware was implemented, a rough architecture was sketched, partners were onboarded, and software was developed. Additionally, 900 notary offices became customers, and ID scanners were purchased, configured, and rolled out to these offices.",
+      "Although I call myself product owner of this service in retrospect, in the early days I was the linchpin filling all gaps. I was the product owner for software developers, liaison to the partner responsible for delivering ID scanners and verification software, and the partner responsible for delivering and managing the infrastructure. I set up the first service management processes and answered questions that came in via phone and email."
+    ],
+    "outcomes": [
+      "Platform live with the first service in production, serving 900+ notary offices",
+      "Onboarded partners and integrated their components (Kubernetes platform, ID verification software, document readers, Salesforce, Alfresco/OpenText Content Server)",
+      "First service management processes established from scratch",
+      "Controlled roll-out of document readers to notary offices"
+    ],
+    "detailedOutcomes": [
+      "Successfully launched identity verification service serving 900+ notary offices",
+      "Established service management processes from scratch",
+      "Designed, planned and controlled roll-out of document readers across customer base",
+      "Guided software realization and deployment through a demanding stakeholder landscape"
+    ],
+    "tech": ["Kubernetes", "VMware", "ID verification", "Document readers", "Salesforce", "Alfresco", "OpenText Content Server", "Stakeholder management", "Service management"],
+    "context": { "domain": "Qualified trust services (notariat)", "team": "Lean team with partners + vendors", "waysOfWorking": "Pragmatic, step-by-step delivery with external partners" }
   },
   {
     "id": "info-arch-2019",
@@ -257,15 +283,15 @@
   {
     "id": "contezza-owner-2008",
     "title": "Founding and growing a boutique consultancy into an implementation-focused software company",
-    "role": "Principal Consultant",
+    "role": "Co-founder & Principal Consultant",
     "company": "Contezza B.V.",
-    "period": "2008–2019",
+    "period": "2007–2019",
     "description": [
       "I founded Contezza as a small boutique consultancy and grew it into an implementation and software development company of ~15 people.",
       "Over time I deliberately chose content and personal agility over management: I handed day-to-day management over to my two business partners so I could stay close to delivery and keep my own flexibility."
     ],
     "detailedDescription": [
-      "Co-founded Contezza in 2008 together with a partner as a vehicle for doing independent work in a team environment. Contezza grew into a company of nearly 15 team members and evolved into an information management implementation firm, mainly based on the Alfresco product.",
+      "Co-founded Contezza in 2007 together with a partner as a vehicle for doing independent work in a team environment. Contezza grew into a company of nearly 15 team members and evolved into an information management implementation firm, mainly based on the Alfresco product.",
       "Notable Projects: Designed and implemented a Common Ground architecture (avant la lettre) for the Municipality of Amsterdam (Alfresco); Information architecture and business analysis for 8 migrations for Servicecentrum Drechtsteden (Alfresco); Innovation track advisor for the Municipality of Utrecht (Alfresco); Document management implementation for FNV, including knowledge management proof-of-concept and training delivery (OpenText Content Server); Content Management design and implementation for CroonWolter&Dros, including training delivery (Alfresco); Content Repository and Publication environment development for Uitgeverij OntwikkelCentrum (Alfresco); Collaboration environment design and implementation for the Municipality of Utrecht (Alfresco); Editorial platform implementation for KICK protocols for Vilans (Alfresco); Knowledge management implementation for Stichting MOVISIE, including training delivery (Alfresco); Livelink Content Server implementation for TNT Express, including training development and delivery (OpenText Content Server); Archive component design for the GovUnited program (Alfresco); Functional Management setup for OpenText Livelink at Province of South Holland (OpenText Content Server).",
       "As co-owner of the growing company, I was also responsible for sales, account management, project management, and team leadership."
     ],
@@ -282,7 +308,7 @@
     "title": "Information management in a regulated financial supervision environment",
     "role": "Senior Information Specialist",
     "company": "Dutch Authority for the Financial Markets (AFM)",
-    "period": "2004–2008",
+    "period": "2005–2008",
     "description": [
       "I worked at the AFM during the period when new supervisory responsibilities were assigned by the Dutch government. I helped implement these new tasks from an information management perspective: making intake, processing and retrieval of evidence predictable and auditable.",
       "I implemented OpenText Livelink to support the new workflows, and helped digitize and classify incoming physical documents using Kofax.",
@@ -312,7 +338,7 @@
     "title": "Enterprise software implementations in a startup and scale-up context",
     "role": "Project Manager & Implementation Consultant",
     "company": "Siennax BV",
-    "period": "1999–2004",
+    "period": "1999–2005",
     "description": [
       "I joined startup Siennax as an implementation consultant and grew into a project manager / project lead role.",
       "I was the \"oil in the machine\": connecting sales, delivery and operations, filling gaps, removing blockers, and making implementations succeed end-to-end.",

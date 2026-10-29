@@ -1,22 +1,25 @@
 {
   "title": "Profile",
-  "subtitle": "Result-oriented designer and IT architect. I turn goals into designs and designs into implemented solutions.",
+  "subtitle": [
+    "As an architect I translate strategic ambitions into target architectures and principles, and I design the operating model that makes them pay off. I'm principled about the horizon and pragmatic about the route. Information security, compliance and data governance are part of the design from day one, not a control added at the end. Among other things, I brought a qualified trust service for the Dutch notarial sector to certification at the highest eIDAS level, and architectural principles I developed were adopted by executive and senior management.",
+    "I've worked as an engineer, product owner and architect myself. That's why my designs are implementable, and why I speak the language of boardrooms and engineering teams alike. I like to stay close to the actual work: learning while building, validating in production, and handing over with clear documentation and clear ownership."
+  ],
   "cards": [
     {
-      "title": "What you get",
-      "text": "I learn new domains quickly, empathize with stakeholders and make sense of complexity. I think in structures - and I can spot structure in chaos. I'm strong with words and can communicate ideas clearly through explanation and documentation."
+      "title": "Design the technology and the operating model that makes it pay off.",
+      "text": "Most architects stop at the diagram. I also design the policies, processes and teams that make it actually work."
     },
     {
-      "title": "How I manage my own pitfalls",
-      "text": "I'm not great at sitting on my hands. I'm impatient with slow or dysfunctional processes and can be tempted to jump in and do the work myself. To avoid losing the bigger picture, I work with clear priorities, small increments and explicit handover moments."
+      "title": "Architecture that leaves the whiteboard.",
+      "text": "Architectural choices only matter when teams can execute them. I design with that constraint in mind: few, strong principles, clear trade-offs, decisions that translate into standards and backlog items within weeks."
     },
     {
-      "title": "Working style",
-      "text": "I'm not a perfectionist and don't expect perfection from teams - I do expect commitment and accuracy. I prefer moving in small steps through concepts, prototypes, MVPs and phased delivery. I don't believe in designing everything up front; I believe in learning while building."
+      "title": "Secure and compliant from day one.",
+      "text": "Information security, data governance and auditability are part of the design, not patched on later. Proven under eIDAS and ISO 27001, and now backed by CISSP."
     },
     {
-      "title": "Roles I thrive in",
-      "text": "Integration / information / systems architect, business analyst and product owner. I also enjoy hands-on engineering, especially backend and integration development (Node.js)."
+      "title": "I translate between the people who need to agree.",
+      "text": "Board, risk, product and engineering only converge when someone makes the trade-offs explicit. I bring enough hands-on background to stay credible on each side, and I'm clear about where my role ends and theirs begins."
     }
   ]
 }
